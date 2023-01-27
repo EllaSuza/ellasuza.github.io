@@ -5,7 +5,7 @@ layout: default
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
 
-[ABOUT]({{ '/documentation%20ella/about.md' | relative_url }})
+[ABOUT]({{ '/documentation%20ella/about.html' | relative_url }})
 
 [SOLDERING]('/documentation%20ella/soldering.md ')
 
