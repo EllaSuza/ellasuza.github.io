@@ -4,7 +4,7 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[ABOUT](.documentation ella/about.html)
+[ABOUT](/documentation%20ella/about.md)
 
 [SOLDERING](documentation ella./soldering.md)
 
