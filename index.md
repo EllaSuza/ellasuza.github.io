@@ -4,9 +4,10 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[ABOUT](/documentation%20ella/about.md)
 
-[SOLDERING](documentation ella./soldering.md)
+[ABOUT]({{ '/documentation%20ella/about.md' | relative_url }})
+
+[SOLDERING]('/documentation%20ella/soldering.md ')
 
 There should be whitespace between paragraphs.
 
