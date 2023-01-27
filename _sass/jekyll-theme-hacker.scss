@@ -150,7 +150,7 @@ dt {
 }
 
 ul li {
-  list-style-image:url('../images/bullet.png');
+  list-style-image:url('../images/orange dot.png');
 }
 
 blockquote {
@@ -198,8 +198,8 @@ td {
 hr {
   height: 0;
   border: 0;
-  border-bottom: 1px dashed #b5e853;
-  color: #b5e853;
+  border-bottom: 1px dashed #f56363;
+  color: #f56363;
 }
 
 /* Buttons
@@ -246,6 +246,7 @@ hr {
 a {
   color: #f56363;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
+  text-decoration: none;
 }
 
 /* Clearfix */
