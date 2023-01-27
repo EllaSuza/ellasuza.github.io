@@ -4,9 +4,9 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[ABOUT](./about.html)
+[ABOUT](.documentation ella/about.html)
 
-[SOLDERING](./soldering.md)
+[SOLDERING](documentation ella./soldering.md)
 
 There should be whitespace between paragraphs.
 
