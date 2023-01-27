@@ -4,8 +4,8 @@ layout: default
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
 
-[ABOUT](./about.html).
-
+[ABOUT](./about.md).
+[SOLDERING] (./soldering.md)
 
 There should be whitespace between paragraphs.
 
