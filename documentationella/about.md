@@ -6,4 +6,5 @@ layout: default
 
 _is Ella_
 
-[back](./)
+
+[BACK TO HOME]({{ '../index.html' |relative_url }})

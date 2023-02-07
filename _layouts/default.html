@@ -21,8 +21,9 @@
 
          <section id="downloads"> 
           {% if site.show_downloads %}
-            <a href="ellasuzannepractice.cargo.site" target="blank" rel="noopener noreferrer" class="btn">my website</a>
-            <a href="{{ site.github.tar_url }}" class="btn">linkedin</a>
+            <a href="https://ellasuzannepractice.cargo.site" target="blank" rel="noopener noreferrer" class="btn">my website</a> 
+            <!--target blank makes the link open in a new tab, and re= noopener noreferrer involves the security of link--> 
+            <a href= {{'/documentationella/about.html' |relative_url }} class="btn">ABOUT ME</a>
           {% endif %}
           <a href="{{ site.github.repository_url }}" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
         </section> 
@@ -37,4 +38,3 @@
   </body>
 </html>
 
-<a href="link.com" target="_blank" rel="noopener noreferrer">External Link</a>
