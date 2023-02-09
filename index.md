@@ -5,8 +5,6 @@ layout: default
 
 
 
-[ABOUT ME]({{ '/documentationella/about.html' | relative_url }})
-
 
 [SOLDERING BOARDS]({{ '/documentationella/soldering.html' |relative_url }})
 
@@ -15,3 +13,5 @@ layout: default
 
 
 [SETTING UP OF STATIC SITE]({{ '/documentationella/staticsite.html' |relative_url }})
+
+[OUR VINYL CUTTER]({{ '/documentationella/vinylcutter.html' | relative_url }})
