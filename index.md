@@ -14,4 +14,8 @@ layout: default
 
 [SETTING UP OF STATIC SITE]({{ '/documentationella/staticsite.html' |relative_url }})
 
+
 [OUR VINYL CUTTER]({{ '/documentationella/vinylcutter.html' | relative_url }})
+
+
+[Fusion 360]({{ '/documentationella/Fusion360.html' | relative_url }})
