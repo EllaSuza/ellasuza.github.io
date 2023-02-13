@@ -18,4 +18,4 @@ layout: default
 [OUR VINYL CUTTER]({{ '/documentationella/vinylcutter.html' | relative_url }})
 
 
-[Fusion 360]({{ '/documentationella/Fusion360.html' | relative_url }})
+[FUSION 360]({{ '/documentationella/Fusion360.html' | relative_url }})

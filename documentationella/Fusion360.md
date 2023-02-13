@@ -18,12 +18,13 @@ My background lies in Blender, Unity and Adobe softwares. I have never worked wi
 ## Shortcuts
 
 E = extruding
+
 C = circle sketch
 
 
 # Making a toy block
 
- <a href="https://www.youtube.com/watch?v=d3qGQ2utl2A" target="blank" rel="noopener noreferrer" >Following this tutorial/a> 
+ <a href="https://www.youtube.com/watch?v=d3qGQ2utl2A" target="blank" rel="noopener noreferrer" >Following this tutorial </a> 
 
  - Go to your preferences in the top right corner, to check that your environment is set in default settings. Once the menu is opened, in the bottom left corner there is a corresponding button. If it is shaded grey you can continue. Keep the menu open.
 
@@ -128,6 +129,9 @@ C = circle sketch
     - select the faces/edges you want to add FILLET to
     - define the intensity of rounded edges and press OKAY
 
+
+
+This where there the tutorial ends. I feel I have some understanding of the workflow now, and will continue developing in project-based pages.
 
 
 

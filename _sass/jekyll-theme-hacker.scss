@@ -45,11 +45,6 @@ li {
   line-height: 1.4 ;
 }
 
-/* Header, <header>
-   header   - container
-   h1       - project name
-   h2       - project description
-*/
 
 header {
   background: rgba(0, 0, 0, 0.1);
@@ -77,10 +72,10 @@ header h1 {
 }
 
 
-header h1:before {
+/*header h1:before {
   content: "./ ";
   font-size: 40px;
-}
+}*/
 
 header h2 {
   font-size: 18px;

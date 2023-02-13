@@ -2,3 +2,41 @@
 ---
 
 @import 'jekyll-theme-hacker';
+
+
+
+header {
+    
+    background: rgba(86, 13, 13, 0.1);
+    width: 100%;
+    border-bottom: 1px dashed $pink; //header;
+    padding: 20px 0;
+    margin: 0 0 40px 0;
+  }
+
+
+  
+  header h1 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  header h2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #downloads .btn {
+    display: flex;
+    justify-content: flex-end;
+
+    margin: 0;
+  }
+
+  .btn .icon {
+    display: flex;
+    justify-content:flex-end;
+  }
+  
+  
+  
