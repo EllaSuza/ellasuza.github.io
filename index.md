@@ -3,9 +3,6 @@ layout: default
 ---
 
 
-
-
-
 [SOLDERING BOARDS]({{ '/documentationella/soldering.html' |relative_url }})
 
 

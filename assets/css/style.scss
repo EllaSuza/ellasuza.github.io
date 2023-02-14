@@ -7,7 +7,7 @@
 
 header {
     
-    background: rgba(86, 13, 13, 0.1);
+    background: rgba(255, 255, 255, 0.23);
     width: 100%;
     border-bottom: 1px dashed $pink; //header;
     padding: 20px 0;
@@ -18,25 +18,50 @@ header {
   
   header h1 {
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
   }
   
   header h2 {
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
+  }
+
+ 
+
+/*buttons including the text on these buttons*/
+
+
+
+  .btn {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 20px;
+    padding-block: 10px;
+    text-align: center;
+
   }
 
   #downloads .btn {
-    display: flex;
-    justify-content: flex-end;
+    display: inline-block;
+    width:max-content;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 5px;
+  } 
 
-    margin: 0;
-  }
 
-  .btn .icon {
-    display: flex;
-    justify-content:flex-end;
+
+  a {
+    color: #f56363;
+    text-shadow: 0 0 5px rgb(147, 38, 4);
+    text-decoration: none;
   }
   
-  
-  
+ 
+.btn:hover {
+  text-shadow: 0 0 2px orange;
+}
+
+body {
+  text-align: center;
+}

@@ -83,11 +83,13 @@ header h2 {
   color: #666;
 }
 
+/*
 #downloads .btn {
   display: inline-block;
   text-align: center;
   margin: 0;
 }
+*/
 
 /* Main Content
 */
@@ -200,6 +202,9 @@ hr {
 /* Buttons
 */
 
+/*including the text on these buttons*/
+
+/*
 .btn {
   display: inline-block;
   background: -webkit-linear-gradient(top, rgba(40, 40, 40, 0.3), rgba(35, 35, 35, 0.3) 50%, rgba(10, 10, 10, 0.3) 50%, rgba(0, 0, 0, 0.3));
@@ -209,22 +214,24 @@ hr {
   border-bottom: 2px solid rgba(0, 0, 0, 0.7);
   border-top: 2px solid rgba(0, 0, 0, 1);
   color: $pink;
-  /*font-family: Helvetica, Arial, sans-serif;*/
+  font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
+*/
 
+/*
 .btn:hover {
   background: -webkit-linear-gradient(top, #f56363, rgba(35, 35, 35, 0.6) 50%, rgba(10, 10, 10, 0.8) 50%, rgba(0, 0, 0, 0.8));
 }
-
+*/
 .btn .icon {
   display: inline-block;
-  width: 16px;
-  height: 16px;
+  width: 6px;
+  height: 6px;
   margin: 1px 8px 0 0;
   float: left;
 }
@@ -238,11 +245,15 @@ hr {
    a, a:hover, a:visited
 */
 
+
+/*list of pages on the homepage*/
+/*
 a {
   color: #f56363;
   text-shadow: 0 0 5px rgba(104, 182, 255, 0.5);
   text-decoration: none;
 }
+*/
 
 /* Clearfix */
 
@@ -259,6 +270,7 @@ a {
   zoom:1;
 }
 
+/*title of website: Ella Suzanne at top of page */
 #a-title {
   text-decoration: none;
 }
