@@ -16,3 +16,6 @@ layout: default
 
 
 [FUSION 360]({{ '/documentationella/Fusion360.html' | relative_url }})
+
+[PRESS FIT]({{ '/documentationella/PressFit.html' | relative_url }})
+
