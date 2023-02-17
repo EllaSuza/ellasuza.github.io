@@ -7,6 +7,9 @@ layout: default
 
 Before making a box out of plexiglass to keep my circuit boards safe, I want to determine the Kurf correction of the material.
 
+[BACK TO HOME]({{ '../index.html' |relative_url }})
+
+
 joint clearance comb
 
 
@@ -129,5 +132,5 @@ DXF
 - You are ready to cut!
 
 
-### Step 5: Importing to Lightburn
+For importing your DXF file to Lightburn and working with our lasercutter, see my [lasercutting_page]({{ '../lasercutter.html' |relative_url }})
 

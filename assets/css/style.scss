@@ -7,9 +7,9 @@
 
 header {
     
-    background: rgba(255, 255, 255, 0.23);
+   /* background: rgba(255, 255, 255, 0.23); */
     width: 100%;
-    border-bottom: 1px dashed $pink; //header;
+    border-bottom: 1px dashed $orange; //header;
     padding: 20px 0;
     margin: 0 0 40px 0;
   }
@@ -26,42 +26,55 @@ header {
     justify-content:center;
   }
 
- 
-
-/*buttons including the text on these buttons*/
 
 
-
-  .btn {
-    display: inline-block;
-    font-weight: bold;
-    font-size: 20px;
-    padding-block: 10px;
-    text-align: center;
-
-  }
-
-  #downloads .btn {
-    display: inline-block;
-    width:max-content;
-    text-align: center;
-    margin: 20px;
-    margin-bottom: 5px;
-  } 
-
-
-
-  a {
-    color: #f56363;
-    text-shadow: 0 0 5px rgb(147, 38, 4);
-    text-decoration: none;
-  }
-  
- 
-.btn:hover {
-  text-shadow: 0 0 2px orange;
-}
 
 body {
   text-align: center;
+}
+
+
+
+
+
+a {
+  color: #90a959;
+  text-shadow: 0 0 5px rgb(147, 38, 4);
+  text-decoration: none;
+}
+
+
+
+
+/*buttons including the text on these buttons*/
+.btn {
+  font-weight: bold;
+  font-size: 20px;
+  padding-block: 10px;
+}
+
+
+#downloads .btn {
+  display: inline-block;
+  width: max-content;
+  margin: 20px;
+  margin-bottom: 5px;
+} 
+
+
+
+
+.btn:hover {
+text-shadow: 0 0 10px orange;
+}
+
+/*hover of text links to other pages*/
+a:hover {
+  text-shadow: 0 0 10px orange;
+}
+
+
+/*bullect point text*/
+li {
+ text-align:left ;
 }
