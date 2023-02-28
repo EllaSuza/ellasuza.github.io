@@ -5,6 +5,13 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
+# Week 6 : 20th of February
+
+### Following the safety and procedures presentation for Wetlab
+
+### Introduction presentations of Wetlab students
+
+
 
 # Week 6 : 20th of February
 
@@ -15,7 +22,7 @@ layout: default
 ### Learning how to work with User Parameters
 
 ### 3D scanning and printing at Fabacademy
-- I followed along with hte practical demonstration of the 3D scanning possibilities we have at our Fablab, and the different 3D printers we have.
+- I followed along with the practical demonstration of the 3D scanning possibilities we have at our Fablab, and the different 3D printers we have.
 - I tried making a full body scan of intern Maria
 
 

@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-[Internship Journal]({{ '/documentationella/InternshipJournal.html' | relative_url }})
+[INTERNSHIP JOURNAL]({{ '/documentationella/InternshipJournal.html' | relative_url }})
 
 
 [SOLDERING BOARDS]({{ '/documentationella/soldering.html' |relative_url }})
@@ -30,13 +30,13 @@ layout: default
 [HORMAO MACHINE]({{ '/documentationella/hormaomachine.html' | relative_url }})
 
 
-[Our 3D printers at Waag]({{ '/documentationella/Our3Dprinters.html' | relative_url }})
+[OUR 3D PRINTERS AT WAAG]({{ '/documentationella/Our3Dprinters.html' | relative_url }})
 
 
-[User Parametrics in Fusion360]({{ '/documentationella/UserParametrics_Fusion360.html' | relative_url }})
+[USER PARAMETRICS IN FUSION360]({{ '/documentationella/UserParametrics_Fusion360.html' | relative_url }})
 
 
-[Acrylic box for circuit boards]({{ '/documentationella/AcrylicBox_lasercutter.html' | relative_url }})
+[ACRYLIC BOX FOR CIRCUIT BOARDS]({{ '/documentationella/AcrylicBox_lasercutter.html' | relative_url }})
 
 
-[Waag Souvenirs]({{ '/documentationella/WaagSouvenirs.html' | relative_url }})
+[WAAG SOUVENIRS]({{ '/documentationella/WaagSouvenirs.html' | relative_url }})
