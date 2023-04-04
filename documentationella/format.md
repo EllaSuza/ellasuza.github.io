@@ -123,3 +123,15 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+
+
+Image compressing software: https://imagemagick.org/script/download.php
+
+https://formulae.brew.sh/formula/imagemagick
+
+Using tips and tools:
+https://imagemagick.org/script/display.php
+
+https://imagemagick.org/Usage/
+
+https://www.imagemagick.org/discourse-server/viewtopic.php?t=36415

@@ -2,6 +2,17 @@
 layout: default
 ---
 
+```
+.___.__  ._______.___    .___    ._______       .______  .______  .______                ___ ._______.___    ._______ ._______  ._____.___ ._______
+:   |  \ : .____/|   |   |   |   : .___  \      :      \ :      \ :_ _   \      .___    |   |: .____/|   |   :_.  ___\: .___  \ :         |: .____/
+|   :   || : _/\ |   |   |   |   | :   |  |     |   .   ||       ||   |   |     :   | /\|   || : _/\ |   |   |  : |/\ | :   |  ||   \  /  || : _/\ 
+|   .   ||   /  \|   |/\ |   |/\ |     :  |     |   :   ||   |   || . |   |     |   |/  :   ||   /  \|   |/\ |    /  \|     :  ||   |\/   ||   /  \
+|___|   ||_.: __/|   /  \|   /  \ \_. ___/      |___|   ||___|   ||. ____/      |   /       ||_.: __/|   /  \|. _____/ \_. ___/ |___| |   ||_.: __/
+    |___|   :/   |______/|______/   :/              |___|    |___| :/           |______/|___|   :/   |______/ :/         :/           |___|   :/   
+                                    :                              :                    :                     :          :                                                 
+
+```
+                                              
 
 [INTERNSHIP JOURNAL]({{ '/documentationella/InternshipJournal.html' | relative_url }})
 
@@ -36,7 +47,9 @@ layout: default
 [USER PARAMETRICS IN FUSION360]({{ '/documentationella/UserParametrics_Fusion360.html' | relative_url }})
 
 
-[ACRYLIC BOX FOR CIRCUIT BOARDS]({{ '/documentationella/AcrylicBox_lasercutter.html' | relative_url }})
+[ACRYLIC BOX FOR CIRCUIT BOARDS]({{ '/documentationella/AcrylicBox_design.html' | relative_url }})
 
 
 [WAAG SOUVENIRS]({{ '/documentationella/WaagSouvenirs.html' | relative_url }})
+
+[ELECTRONICS DESIGN]({{ '/documentationella/Electronicsdesign.html' | relative_url }})

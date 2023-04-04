@@ -2,23 +2,30 @@
 layout: default
 ---
 
-
-# Making a Press Fit
-
-Before making a box out of plexiglass to keep my circuit boards safe, I want to determine the Kurf correction of the material.
-
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
 
-joint clearance comb
+### Kerf Correction
+
+When using a laser cutter to makes cuts in whatever material, there is a portion of that material that gets burnt away. This is referred to as the laser Kerf and can range from 0.08mm to 1mm of material that is lost in the process.
+It is recommended to keep the minumum cut width no smaller than the thickness of the chosen material. 
+
+I am going to be making a PressFit before making the box. This is important because I need the finger joints to sit snug so I don't need to use glue for example to keep it together. This is not an exact way of determining the laser Kerf, but fitting for my context. To determine the exact laser Kerf, check out these links : 
+
+https://www.instructables.com/Kerf-Correction-for-Laser-Cutting-With-MakerCase/
+
+# Making a Press Fit
+
+Before making a box out of plexiglass to keep my circuit boards safe, I want to determine the Kerf correction of the material. This PressFit, also known as a joint clearance comb, is a tangible way of finding the right values for your finger joints depending on the type of material you are using. 
 
 
-### Kurf Correction
 
 
+Resource https://cutlasercut.com/drawing-resources/expert-tips/laser-kerf/
 
 # A Working in Fusion 360
 This software is useful for parametric design, so I decided use it. I initially used Illustrator but seeing it is not meant for this type of projects it became very unnecessarily complicated. On a different page of this site I document me learning how to use this software, with basic experience of 3D modelling. 
+
 
 ### Step 1 : base
 
@@ -131,6 +138,24 @@ DXF
 
 - You are ready to cut!
 
+For this PressFit, I used the following values for the lasercutter:
+
+cutting
+SPEED: 10
+POWER: 50
+
+engraving
+SPEED: 100
+POWER: 25
+
+NOTE:
+the engraving turned out okay, but not great. Although it didnt go too deep, because it is text there was a lot of inconsistency. Keep in mind that text that small might not look great on white acrylic.
 
 For importing your DXF file to Lightburn and working with our lasercutter, see my [lasercutting_page]({{ '../lasercutter.html' |relative_url }})
 
+
+(image of pressfit printed)
+
+The value that fit most sturdy without there being too much friction which could lead to breaking, was 2.7mm. 
+
+To find out how you can use this information for making a finger joint box, see my [Acrylic Box page]({{ '../AcrylicBox_lasercutter.html' |relative_url }})
