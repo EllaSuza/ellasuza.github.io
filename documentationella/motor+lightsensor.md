@@ -46,7 +46,7 @@ Data sheet : https://www.digikey.nl/en/datasheets/mikroelektronika/mikroelektron
 
 - unipolar (6 wires)
 - compatible with driver ULN2003
-
+- 32 steps per revolution
 
 ###### NOTES ON STEPPER MOTORS
 

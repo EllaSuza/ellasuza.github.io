@@ -70,3 +70,22 @@ hole diameter: 4.95
 pitch diameter: 368.3
 
 
+
+### Gear to motor connection piece
+
+bed of gear: 30mm diameter
+bed of connection piece: 20mm diameter
+
+Stepper motor 28BYJ-48 pin: 2.88mm x 4.87mm
+
+In Prusa Slicer:
+- Creality Ender 3
+- Infill 20%
+- No brim
+- No support
+- DRAFT
+
+(image of printed object)
+
+NOTE: the hole was too small for the step motor pin- make it slightly bigger on both width and length
+

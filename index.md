@@ -12,7 +12,8 @@ layout: default
                                     :                              :                    :                     :          :                                                 
 
 ```
-                                              
+
+                                            
 
 [INTERNSHIP JOURNAL]({{ '/documentationella/InternshipJournal.html' | relative_url }})
 

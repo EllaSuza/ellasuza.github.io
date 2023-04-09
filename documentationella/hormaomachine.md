@@ -18,8 +18,27 @@ For my period at Waag, I want to develop a prototype designed for my body. I env
 What data do I want to continue collecting?
 
 
+### Calendar prototype
+
+cardboard : 2.5mm
+
+cutting
+s: 80
+p: 75
+
+
+small teeth joints are too small for this material (comes out crooked)
+slightly bigger as well
+I will try thicker cardboard
+: s40 p95 works
+
+
+
 # Inner seasons physical calendar
 I made a graphic visual representation of the data I collected, which works similar to a calendar. I want to create a a physical and tangible version of this, as a step toward my final outcome.
+
+
+
 
 
 
