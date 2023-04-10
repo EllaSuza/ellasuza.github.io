@@ -17,6 +17,10 @@ layout: default
 
 [INTERNSHIP JOURNAL]({{ '/documentationella/InternshipJournal.html' | relative_url }})
 
+[HORMAO MACHINE]({{ '/documentationella/hormaomachine.html' | relative_url }})
+
+[Motors and Light Sensor]({{ '/documentationella/motor+lightsensor.html' | relative_url }})
+
 
 [SOLDERING BOARDS]({{ '/documentationella/soldering.html' |relative_url }})
 
@@ -39,9 +43,6 @@ layout: default
 [LASER CUTTER]({{ '/documentationella/lasercutter.html' | relative_url }})
 
 
-[HORMAO MACHINE]({{ '/documentationella/hormaomachine.html' | relative_url }})
-
-
 [OUR 3D PRINTERS AT WAAG]({{ '/documentationella/Our3Dprinters.html' | relative_url }})
 
 
@@ -54,3 +55,4 @@ layout: default
 [WAAG SOUVENIRS]({{ '/documentationella/WaagSouvenirs.html' | relative_url }})
 
 [ELECTRONICS DESIGN]({{ '/documentationella/Electronicsdesign.html' | relative_url }})
+
