@@ -44,7 +44,7 @@ I made a graphic visual representation of the data I collected, which works simi
 
 # Analog Machine
 
-[stepper motor and light sensor]({{ '../stepper+lightsensor.html' |relative_url }})
+[stepper motor and light sensor]({{ '../motor+lightsensor.html' |relative_url }})
 
 
 ### Lasercutting gears
