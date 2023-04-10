@@ -22,3 +22,8 @@ slightly bigger as well
 I will try thicker cardboard
 : s40 p95 works
 
+
+
+### Clock charged by gears
+
+instructables: https://www.instructables.com/Laser-cut-gear-clock-with-Chronodot/
