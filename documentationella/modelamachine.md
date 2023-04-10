@@ -14,7 +14,9 @@ layout: default
 : in comparison to our Shopbot milling machine, this machine has a small bed for milling
 : the milling bits are fragile, use them with care
 : avoid touching the copper plate or sacrificial layer with your fingers too much
-: because we are working with very small measurements, even ever so slight unevenness in any o
+: because we are working with very small measurements, even an ever so slight unevenness within any of the surfaces can influence the final product
+
+
 ##### ITS STRUCTURE
 
 - The bed of the modela has 4 layers
