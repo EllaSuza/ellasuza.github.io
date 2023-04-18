@@ -55,13 +55,14 @@ header {
   margin: 0 0 40px 0;
 }
 
+//only website title heading
 header h1 {
   font-size: 30px;
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
-  color: $orange;//$header;
+  color: $orange;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
                0 0 10px rgba(181, 232, 83, 0.1);
@@ -71,6 +72,8 @@ header h1 {
     margin-left: 0;
   }
 }
+
+
 
 
 /*header h1:before {
@@ -113,12 +116,14 @@ h1, h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
+//text on bodies of text on pages
 #main_content h1 {
   font-size: 30px;
 }
 
 #main_content h2 {
   font-size: 24px;
+
 }
 
 #main_content h3 {

@@ -15,7 +15,7 @@ layout: default
 
                                             
 
-[OUR CNC MILLING MACHINE : SHOPBOT]({{ '/documentationella/cncmilling_shopbot.html' | relative_url }})
+[OUR CNC MILLING MACHINE : SHOPBOT]({{ '/documentationella/cncmillingShopbot.html' | relative_url }})
 
 [OUR MILLING MACHINE : MODELA]({{ '/documentationella/modelamachine.html' | relative_url }})
 
