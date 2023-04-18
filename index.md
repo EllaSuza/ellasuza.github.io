@@ -15,11 +15,15 @@ layout: default
 
                                             
 
-[INTERNSHIP JOURNAL]({{ '/documentationella/InternshipJournal.html' | relative_url }})
+[OUR CNC MILLING MACHINE : SHOPBOT]({{ '/documentationella/cncmilling_shopbot.html' | relative_url }})
+
+[OUR MILLING MACHINE : MODELA]({{ '/documentationella/modelamachine.html' | relative_url }})
 
 [HORMAO MACHINE]({{ '/documentationella/hormaomachine.html' | relative_url }})
 
 [Motors and Light Sensor]({{ '/documentationella/motor+lightsensor.html' | relative_url }})
+
+[Gear production]({{ '/documentationella/gear_production.html' | relative_url }})
 
 
 [SOLDERING BOARDS]({{ '/documentationella/soldering.html' |relative_url }})

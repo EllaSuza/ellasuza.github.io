@@ -29,9 +29,6 @@ I made a graphic visual representation of the data I collected, which works simi
 
 # Analog Machine
 
-[motor and light sensor]({{ '../motor+lightsensor.html' |relative_url }})
-
-[gear production]({{ '../gear_production.html' |relative_url }})
-
+[Gear production]({{ '/documentationella/gear_production.html' | relative_url }})
 
 [Motors and Light Sensor]({{ '/documentationella/motor+lightsensor.html' | relative_url }})

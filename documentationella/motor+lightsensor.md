@@ -32,23 +32,31 @@ https://app.archbee.com/docs/hac8usg8LteFu7mWCOJMo/3i1QbF-wiJoXSA8UivstD
 Stepper motor basics: https://forum.arduino.cc/t/stepper-motor-basics/275223 (not applied to unipolar steppers)
 
 
-JK42HS40-1704-83AF
+###### JK42HS40-1704-83AF
 Data sheet : https://datasheetspdf.com/pdf/1380131/ETC/JK42HS/1
 
 Someone working with the same and trying to find driver : https://forum.arduino.cc/t/stepper-driver-to-this-stepper-motor/299923
 
-- bipolar 
+- bipolar
+- 200 steps per revolution
+- 1700 m/A per coil
+- 2.7 v
+
+possible drivers: 
+- A4988
+- DRV8825
+- DRV8824
 
 
 
-28BYJ-48
+###### 28BYJ-48
 Data sheet : https://www.digikey.nl/en/datasheets/mikroelektronika/mikroelektronika-step-motor-5v-28byj48-datasheet
 
 - unipolar (6 wires)
 - compatible with driver ULN2003
 - 32 steps per revolution
 
-###### NOTES ON STEPPER MOTORS
+##### NOTES ON STEPPER MOTORS
 
 - Broadly speaking there are two types of stepper motors: UNIPOLAR AND BIPOLAR
 
@@ -67,6 +75,9 @@ Light sensor LM393 9AM
 
 https://www.instructables.com/LDR-Sensor-Module-Users-Manual-V10/
 
+
+Light sensor TEMT 60000
+- same as : https://www.tinytronics.nl/shop/en/sensors/optical/light-and-color/temt6000-light-sensor-module
 
 
 
