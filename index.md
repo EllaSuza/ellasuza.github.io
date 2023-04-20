@@ -19,11 +19,11 @@ layout: default
 
 [OUR MILLING MACHINE : MODELA]({{ '/documentationella/modelamachine.html' | relative_url }})
 
-[HORMAO MACHINE]({{ '/documentationella/hormaomachine.html' | relative_url }})
+[HORMAO MACHINE]({{ '/documentationella/hormaomachine/hormaomachine.html' | relative_url }})
 
-[Motors and Light Sensor]({{ '/documentationella/motor+lightsensor.html' | relative_url }})
+[Motors and Light Sensor]({{ '/documentationella/hormaomachine/motorlightsensor.html' | relative_url }})
 
-[Gear production]({{ '/documentationella/gear_production.html' | relative_url }})
+[Gear production]({{ '/documentationella/hormaomachine/gear_production.html' | relative_url }})
 
 
 [SOLDERING BOARDS]({{ '/documentationella/soldering.html' |relative_url }})
