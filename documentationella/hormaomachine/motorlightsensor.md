@@ -4,11 +4,13 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
+[Part of Hormao Machine]({{ '../index.html' |relative_url }})
 
+On this page, I document my process of and research on controlling the movement of motors with light sensors.
 
-## COMPONENTS
+# COMPONENTS I CAN USE
 
-#### Servo motors
+### Servo motors
 
 
 analog clock making with servo motors: https://electronics-project-hub.com/analog-clock-using-arduino/
@@ -29,12 +31,12 @@ analog clock making with servo motors: https://electronics-project-hub.com/analo
 previous work with it documented:
 https://app.archbee.com/docs/hac8usg8LteFu7mWCOJMo/3i1QbF-wiJoXSA8UivstD
 
-#### Stepper motors
+### Stepper motors
 
 Stepper motor basics: https://forum.arduino.cc/t/stepper-motor-basics/275223 (not applied to unipolar steppers)
 
 
-###### JK42HS40-1704-83AF
+#### JK42HS40-1704-83AF
 Data sheet : https://datasheetspdf.com/pdf/1380131/ETC/JK42HS/1
 
 Someone working with the same and trying to find driver : https://forum.arduino.cc/t/stepper-driver-to-this-stepper-motor/299923
@@ -51,14 +53,14 @@ possible drivers:
 
 
 
-###### 28BYJ-48
+#### 28BYJ-48
 Data sheet : https://www.digikey.nl/en/datasheets/mikroelektronika/mikroelektronika-step-motor-5v-28byj48-datasheet
 
 - unipolar (6 wires)
 - compatible with driver ULN2003
 - 32 steps per revolution
 
-##### NOTES ON STEPPER MOTORS
+###### NOTES ON STEPPER MOTORS
 
 - Broadly speaking there are two types of stepper motors: UNIPOLAR AND BIPOLAR
 
@@ -70,15 +72,15 @@ Bipolar:
 
 
 
-#### Light sensor
+### Light sensor
 
-Light sensor LM393 9AM 
+#### Light sensor LM393 9AM 
 - same as : https://www.reichelt.nl/nl/nl/ontwikkelaarspanelen-lichtsensor-met-hoog-laag-rendement-lm39-debo-light-sens-p224222.html?PROVID=2809&gclid=Cj0KCQjw8qmhBhClARIsANAtbod-Ijv9C5QOjDjeGF2yvb9s8kTvQ6j2YI7AcJXzKBBsFdreawby7PgaAqCsEALw_wcB
 
 https://www.instructables.com/LDR-Sensor-Module-Users-Manual-V10/
 
 
-Light sensor TEMT 60000
+#### Light sensor TEMT 60000
 - same as : https://www.tinytronics.nl/shop/en/sensors/optical/light-and-color/temt6000-light-sensor-module
 
 
@@ -86,7 +88,7 @@ Light sensor TEMT 60000
 
 
 
-## Stepper motor to Arduino
+# Stepper motor to Arduino
 connecting Stepper motor 28BYJ-48 and driver ULN2003 to Arduino UNO
 
 
@@ -154,8 +156,10 @@ void stepper(int brojKoraka)
 ![1 tooth gear](/assets/images/motorlightsensor/gearmotor.mov)
 (video of code running with 1 tooth gear)
 
+[On how I made this gear, see my gear production page]({{ '/documentationella/hormaomachine/gear_production' | relative_url }})
 
-#### Light sensor serial monitor
+
+#### Light sensor reading serial monitor
 
 https://www.hackster.io/kiranpaul/light-magic-using-lm393-and-arduino-uno-14eadc
 
@@ -181,7 +185,103 @@ void loop() {
 }
 ```
 
+#### Light sensor and stepper motor
+
+```
+// Arduino stepper motor and LDR
+// based on https://www.instructables.com/Light-Sensor-Stepper-Motor-Arduino/ but with some modifications
+#include <Stepper.h>
+
+// Include the header file
+
+// change this to the number of steps on your motor
+
+#define STEPS 32
+
+// create an instance of the stepper class using the steps and pins
+
+Stepper stepper(STEPS, 8, 10, 9, 11);
+
+int val = 0;
+
+int LDR = 7;
+
+void setup()
+
+{
+
+Serial.begin(9600);
+
+stepper.setSpeed(200);
+
+
+
+pinMode(LDR, INPUT);
+
+}
+
+void loop()
+
+{
+
+int LDRValue = digitalRead(LDR);
+
+Serial.print("sensor = ");
+
+if (LDRValue ==LOW)
+
+{
+
+
+val = Serial.parseInt();
+
+stepper.step(512);
+
+Serial.println(val);
+
+//for debugging
+
+}
+
+else
+
+{
+
+//digitalWrite(LED, LOW);
+
+
+}
+
+}
+
+```
+
 
 ![1 tooth gear with light sensor](/assets/images/motorlightsensor/gearlightsens.mov)
 (video of gear running when light is detected, and stops once all light is blocked)
 
+[On how I made this gear, see my gear production page]({{ '/documentationella/hormaomachine/gear_production' | relative_url }})
+
+## ASSEMBLY:
+
+#### Stepper 28YJ-48 5 wires to Driver ULN2003
+
+#### Driver ULN2003 to Arduino UNO
+Int1 to pin D8
+
+Int2 to pin D9
+
+Int3 to pin D10
+
+Int4 to pin D11
+
+Ground to pin Ground
+
+Power to pin 5V
+
+#### LM393 9AM sensor to Arduino UNO
+VCC to pin 5V
+
+GROUND to pin Ground
+
+DO to D7
