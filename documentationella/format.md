@@ -135,3 +135,21 @@ https://imagemagick.org/script/display.php
 https://imagemagick.org/Usage/
 
 https://www.imagemagick.org/discourse-server/viewtopic.php?t=36415
+
+
+
+# My own notes
+
+### IMAGES:
+two ways
+
+<img src="/assets/images/calendarprototyping/calendar4.jpg" width="500" height="500"> //calendar assembled
+
+- allows size changes
+
+![calendar assembled](/assets/images/calendarprototyping/calendar2.jpg)
+
+
+### External links:
+
+<a href="https://www.youtube.com/watch?v=ZrcqauNvt0M" target="blank" rel="noopener noreferrer" >tutorial </a> 
