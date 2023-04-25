@@ -45,16 +45,19 @@ I made the two sides of the base slightly longer to be able to show more data, a
 ![prototype1calendar](/assets/images/calendarprototyping/calendarcyclical.mp4)
 
 
-I then used the graph I had made, [more info on that here]({{ '../index.html' |relative_url }}), and applied it to the structure in Illustrator.
+I then used the graph I had made, [more info on that here]({{ '../hormaomachine/hormaomachine.html' |relative_url }}), and applied it to the structure in Illustrator.
 
 ![data representation applied to prototype](/assets/images/calendarprototyping/dataonprototype.png)
 
 <img src="/assets/images/calendarprototyping/3.jpg" width="600"> 
 
-
+![prototype2calendar](/assets/images/calendarprototyping/calendarAnxietydata.mp4)
 
 
 - And it moves really smoothly! The pressfit connections were initially really sturdy, but they gradually became not so sturdy. I wonder if these were thicker and therefore less prone to fall out of their pockets on the their base, it would work better. I could glue all of it together permanently, but I really want the components to be replacable and adaptable by the user, as well as easily assembled.
+
+- After a couple of days, some of the teeth on the pressfit middle connection broke off, and although it clicks together well it doesnt hold it long. I wonder if longer teeth would be helpful, or perhaps printing it out of filament so the teeth and base are one component.
+
 
 
 <img src="/assets/images/calendarprototyping/1.jpg" width="300">  <img src="/assets/images/calendarprototyping/4.jpg" width="300"> <img src="/assets/images/calendarprototyping/5.jpg" width="300"> <img src="/assets/images/calendarprototyping/6.jpg" width="300"> <img src="/assets/images/calendarprototyping/7.jpg" width="300"> 
@@ -64,6 +67,7 @@ I then used the graph I had made, [more info on that here]({{ '../index.html' |r
 
 - The engraving did not turn out well. I tried a couple of different ratios between power and speed, but the outcome also kept changing. A couple of days later the laser lens was cleaned and turned out it was really dirty, so perhaps that was the problem. I also looked at some pieces the other intern Maria had done with text engraving, and in image mode text came out really nicely. I might try that instead of fill or line mode.
 
+View [Our lasercutter]({{ 'documentationella/lasercutter.html' |relative_url }}) page for more information on settings and options
 
 
 
