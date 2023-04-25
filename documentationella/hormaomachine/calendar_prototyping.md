@@ -5,7 +5,7 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
-[Part of Hormao Machine]({{ '../index.html' |relative_url }})
+[Part of Hormao Machine]({{ 'documentationella/hormaomachine/hormaomachine.html' |relative_url }})
 
 
 # Calendar with cyclical variables
@@ -57,15 +57,7 @@ I then used the graph I had made, [more info on that here]({{ '../index.html' |r
 - And it moves really smoothly! The pressfit connections were initially really sturdy, but they gradually became not so sturdy. I wonder if these were thicker and therefore less prone to fall out of their pockets on the their base, it would work better. I could glue all of it together permanently, but I really want the components to be replacable and adaptable by the user, as well as easily assembled.
 
 
-<img src="/assets/images/calendarprototyping/1.jpg" width="300"> 
-
-<img src="/assets/images/calendarprototyping/4.jpg" width="300"> 
-
-<img src="/assets/images/calendarprototyping/5.jpg" width="300"> 
-
-<img src="/assets/images/calendarprototyping/6.jpg" width="300"> 
-
-<img src="/assets/images/calendarprototyping/7.jpg" width="300"> 
+<img src="/assets/images/calendarprototyping/1.jpg" width="300">  <img src="/assets/images/calendarprototyping/4.jpg" width="300"> <img src="/assets/images/calendarprototyping/5.jpg" width="300"> <img src="/assets/images/calendarprototyping/6.jpg" width="300"> <img src="/assets/images/calendarprototyping/7.jpg" width="300"> 
 
 ##### Engraving settings:
 
