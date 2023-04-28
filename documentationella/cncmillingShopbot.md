@@ -9,12 +9,17 @@ layout: default
 
 ## Softwares: Vcarve Pro, Shopbot 3
 
-![our Shopbot](/assets/images/fusion360intro/fusion360intro1.png)
-(image of our machine with labels)
+<img src="/assets/images/shopbot/shopbotdiagram.png" height="800">
+
+<img src="/assets/images/shopbot/verispeed.jpg" height="500">
+
+(image of verispeed)
+
 
 ## Uses
 
 - constructing large components
+- making molds
 - designing in 2+1/2 dimensions
 
 
@@ -22,6 +27,12 @@ layout: default
 
 
 - milling bit rotates at 18000 rpm, so if anything creates high resistance like metal, it can be very dangerous. Always check the material you are milling into for foreign objects.
+
+- There is an emergency safety knob accessible in case anything does go wrong
+
+
+<img src="/assets/images/shopbot/shopbot3.jpg" height="300">
+
 
 ## In Practice
 
@@ -39,7 +50,7 @@ layout: default
 
 - Having chosen your material beforehand, measure its thickness at several different points. Write it down. We will be using the largest value later on.
 
-- Measure the length and width of the sheet (???? what sheet).
+- Measure the length and width of the sheet of material.
 
 - Check your material for foreign object such as screws. It is very important to remove these, especially objects made of metal. 
 
@@ -50,6 +61,8 @@ layout: default
 ### Open software Shopbot 3
 
 - Identify the COMMAND BOX
+
+<img src="/assets/images/shopbot/commandbox.jpg" height="500">
 
 (image of the command box)
 
@@ -66,7 +79,18 @@ layout: default
 
 ### Change the collet
 
-(image of skirt, butterfly nut and wrench tools)
+<img src="/assets/images/shopbot/shopbot2.jpg" height="500">
+
+(image of skirt)
+
+<img src="/assets/images/shopbot/shopbot2.jpg" height="500"> <img src="/assets/images/shopbot/butterfly.jpg" height="500">
+
+
+(image butterfly nut)
+
+<img src="/assets/images/shopbot/shopbot2.jpg" height="500">
+
+(image of wrenches available)
 
 (image of clamping nut, collet and milling bit)
 
@@ -104,7 +128,7 @@ layout: default
 
 ### Prepare yourself
 
-### Go into Shopbot 3 
+### Go into Shopbot 3
 
 ### Start milling job
 
