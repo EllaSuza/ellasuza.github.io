@@ -73,6 +73,10 @@ The first few layers are very important, so observe closely for these.
 #### INSIDE
 
 ###### COLD PULLS
+
+resource:  https://help.prusa3d.com/article/cold-pull-mk3s-mk2-5s_2075
+
+
 - If you have a slight clog or print fails, do a couple of cold pulls
 - PLA to PTA filament temperatures can cause issues
 
