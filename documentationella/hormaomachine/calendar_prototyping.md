@@ -12,6 +12,9 @@ layout: default
 
 I wanted to create a calendar with replacable components so that I could use the same structure for tracking multiple things. The first idea I had was to have multiple movable circles held together, working similarly to a compass. I first made it out of carboard and laser cutting it.
 
+
+## PROTOYPE 1 : cardboard
+
 #### The cardboard I used : 2.5mm
 
 #### The cutting settings I used in Lightburn
@@ -40,6 +43,9 @@ I then grabbed some scrap thicker cardboard and cut the teeth out of that instea
 
 The structure was surprisingly sturdy, although not for long. The circles were able to move quite easily,so I felt I could keep the dimensions of them as well as the supporting arcs the same.
 
+
+## PROTOYPE 2 :
+
 I made the two sides of the base slightly longer to be able to show more data, and wider so that certain parts wouldn't be as fragile. I haven't cut the circles out of wood yet, because I want to design the representation of data first so I can engrave on it right away. I used the cardboard versions to see if the dimensions still work.
 
 ![prototype1calendar](/assets/images/calendarprototyping/calendarcyclical.mp4)
@@ -65,33 +71,23 @@ I then used the graph I had made, [more info on that here]({{ '../hormaomachine/
 ##### Engraving settings:
 
 
-- The engraving did not turn out well. I tried a couple of different ratios between power and speed, but the outcome also kept changing. A couple of days later the laser lens was cleaned and turned out it was really dirty, so perhaps that was the problem. I also looked at some pieces the other intern Maria had done with text engraving, and in image mode text came out really nicely. I might try that instead of fill or line mode.
+- The engraving did not turn out well. I tried a couple of different ratios between power and speed for the text, but the outcome also kept changing. A couple of days later the laser lens was cleaned and turned out it was really dirty, so perhaps that was the problem. I also looked at some pieces the other intern Maria had done with text engraving, and in image mode text came out really nicely. I might try that instead of fill or line mode.
+- The circles engraved are also quite irregular, perhaps the speed was too high for the laser to manage.
 
 View [Our lasercutter]({{ 'documentationella/lasercutter.html' |relative_url }}) page for more information on settings and options
 
 
+## Middle finger joint pressfit
+#### 3D printing
 
-# Clock charged by gears
+As I mentioned before, the middle connection point between the two base faces that keeps all the components together, isn't stable enough. I want to try 3D printing this, so that the structure is more dense and not made of multiple pieces. My first test shows below:
 
-<a href="https://www.instructables.com/Laser-cut-gear-clock-with-Chronodot/" target="blank" rel="noopener noreferrer" >instructables basis </a> 
+<img src="/assets/images/calendarprototyping/midjointfit.jpg" width="300"> 
 
-
-- Cut their svg file in lightburn, because I couldn't figure out how they made the gears work with eachother.
-
-#### ASSEMBLY
-
-- I am using a different stepper motor than in the instructables, so will have to adjust the size of the hole in the gear that attaches to the motor pin. 
-
-Stepper motor 28BYJ-48
-
-- pin: 2.88mm x 4.87mm
+I used the same design in Fusion of the middle connection piece, and made the teeth 6mm longer in height. You can see, however, that the faces of the teeth are too wide and long. This is probably because there is little to no play in the structure of filament compared to the wood. There is also no Kerf from a laser that eats material. I think if I add a negative offset of 1mm, it will work better.
 
 
-Drilling was not an option (gears were way too fragile) so I recut them with new fitting holes. I tried a couple of different dimensions because I want the gear to sit tightly on the motor pin:
+<img src="/assets/images/calendarprototyping/midjointposition.jpg" width="300"> 
 
-<img src="/assets/images/motor1.jpg" width="300"> 
-
-
-
-(image of different sized holes in gears)
+In the image above you can clearly see that the position of the teeth is also completely off. I forgot that I had changed the positions in Lightburn, for a reason I cannot recall. I will have to measure the physical bases to make the connection piece allign, or recut the bases.
 
