@@ -23,3 +23,22 @@ live-p5
 p5.vscode
 - heel snel nieuwe projecten beginnen
 
+
+
+
+### Project references
+
+
+<a href="https://fab.cba.mit.edu/classes/863.22/Harvard/people/Zhuoyue/pages/w1.html" target="blank" rel="noopener noreferrer" >Clo(o)k </a> 
+
+- a clock with a camera
+
+
+<a href="https://fab.cba.mit.edu/classes/863.22/CBA/people/Dexter/final.html" target="blank" rel="noopener noreferrer" >Light clock </a>
+
+- "A stepper-actuated light source orbits on a circular track around a small planar mirror. The hour and minute arms of the clock are the incident and reflected beams of light emitted from the source and refracted off of the mirror"
+
+<a href="http://fabacademy.org/2020/labs/oulu/students/xinhui-hu/finalprojectlog.html#outcome" target="blank" rel="noopener noreferrer" >Weasley Clock </a>
+
+- "Weasley Clock automatically tracks and shows the read-time location of Weasley family members. Based on the IFTTT-Adafruit IO - ESP8266 - ATtiny 1614 communication chain"
+

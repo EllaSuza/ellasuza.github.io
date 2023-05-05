@@ -67,6 +67,7 @@ For more information on how I designed and built it, view my page:
 
 [Mechanism Making]({{ '/documentationella/hormaomachine/mechanismmaking.html' | relative_url }})
 
+[Gear Clock]({{ '/documentationella/hormaomachine/gearclock.html' | relative_url }})
 
 
 <img src="/assets/images/hormao1.jpg" height="300"> <img src="/assets/images/hormao2.jpg" height="300"> 
