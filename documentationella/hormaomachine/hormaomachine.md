@@ -12,6 +12,10 @@ As part of my internship at Fablab, I am to work on a personal project to develo
 For my period at Waag, I want to develop a prototype designed for my body. I envision it as a tool complimentary to a clock, in which the larger cycles of the menstruating human experience within modern society is illustrated. On this page I will keep track of prototyping and materializations I am playing with.
 
 
+![aesthetics](/assets/images/hormaomachine/moodboardsArtboard%201.png)
+
+![interactivity](/assets/images/hormaomachine/moodboardsArtboard%203.png)
+
 
 # Representation of data 
 What data do I want to continue collecting?
