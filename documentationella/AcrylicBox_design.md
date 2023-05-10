@@ -14,19 +14,22 @@ I followed this <a href="https://www.youtube.com/watch?v=ZrcqauNvt0M" target="bl
 
 ### Step 1: Establishing the user parameters
 
-My variables:
+##### My variables:
 
-Material thickness: 3mm
-PressFit snug joint value: 2.7mm
-Box height: 60mm
-Box width: 70mm
-Box depth: 40mm
+- Material thickness: 3mm
+
+- PressFit snug joint value: 2.7mm
+
+- Box height: 60mm
+
+- Box width: 70mm
+
+- Box depth: 40mm
 
 
 My parameters:
 
-![1](/assets/images/acrylicbox/1-min.png)
-(image of user parameters set up)
+![1](/assets/images/acrylicbox/1-min.png) _image of user parameters set up_
 
 ### Step 2: Creating the base
 
