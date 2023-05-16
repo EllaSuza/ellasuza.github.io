@@ -1,10 +1,15 @@
 
+---
+layout: default
+---
+
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
 
 # Cutting designs with paper
 
 
+## Paper Manipulation
 I got inspired by the previous intern, Asli, before me at Fablab, that did a couple of exercises with paper manipulation, where she created 3D forms through digital fabrication. I wanted to try a couple as well, because I am working towards a larger construction for my final project.
 
 Her page: https://asliaydinaksan.github.io/portfolio/2022-11-04-paper-manipulation/
@@ -73,5 +78,8 @@ result: no burn marks, but some parts did not completely go through. I am going 
 speed: 30 power: 25
 
 
+
+
+## Waag Sculpture
 
 

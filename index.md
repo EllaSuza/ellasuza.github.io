@@ -43,9 +43,13 @@ layout: default
 [OUR VINYL CUTTER]({{ '/documentationella/vinylcutter.html' | relative_url }})
 
 
+[FULL SPECTRUM LASERCUTTER]({{ '/documentationella/retinaengravelaser.html' | relative_url }})
+
 
 
 ## FURTHER DOCUMENTATION
+
+[SIGNS FOR LOCAL COLOUR]({{ '/documentationella/soldering.html' |relative_url }})
 
 
 [SOLDERING BOARDS]({{ '/documentationella/soldering.html' |relative_url }})

@@ -11,10 +11,12 @@ As part of my internship at Fablab, I am to work on a personal project to develo
 
 For my period at Waag, I want to develop a prototype designed for my body. I envision it as a tool complimentary to a clock, in which the larger cycles of the menstruating human experience within modern society is illustrated. On this page I will keep track of prototyping and materializations I am playing with.
 
+AESTHETICS
+![aesthetics](/assets/images/hormaomachine/moodboard%3F-01.png)
 
-![aesthetics](/assets/images/hormaomachine/moodboard?-01.png)
 
-![interactivity](/assets/images/hormaomachine/moodboard?-03.png)
+INTERACTIVITY
+![interactivity](/assets/images/hormaomachine/moodboard%3F-03.png)
 
 
 # Representation of data 
@@ -42,6 +44,10 @@ Is my mind racing? Am I fidgeting? Do I want to do a lot but am not sure of wher
 Do I yearn to be experimental and try out new things? Do I crave sharing and standing my ground? Do I feel steady on my two feet?
 ##### Motivation
 Am I motivated to work on my practice? Do I feel the drive to create, consume, step forward?
+##### Reflectiveness
+Do I have the mental space to look back on what I have done and do some honest reflecting?
+##### Critical lens
+Do I feel drawn to specifics and details? Is there a 'judgemental' energy that I could tunnel towards constructive improvement?
 
 
 These _fluctuations_ (that is what I call these variables) I then rate their presence of at the start of working day, from a range of 0% to 100%. Because this frame is very linear, I also have space for extra observations and reflecting on possible patterns.
