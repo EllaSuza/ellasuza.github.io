@@ -16,8 +16,20 @@ BED:
 Carton planken
 95cmx115cm
 
+
+
+## SET UP at machine
+
+water pump system
+ventilation
+air pump
+laptop safely
+
+then turn it all on
+
 ## FROM DESIGN TO CUT
 an overview of the steps to take to go from a design in Retina Engrave 3D to the post-cut process.
+
 
 #### 1. Open **RETINA ENGRAVE 3D** 
 - the first time you open it up, it will ask you to select the laser in a popup menu.
@@ -26,6 +38,7 @@ an overview of the steps to take to go from a design in Retina Engrave 3D to the
 #### 2. Print from any application and select the FULL SPECTRUM ENGINEERING DRIVER
 
 - it accepts the following file formats:
+
 
 
 - you can also design something in Retina Engrave.
@@ -51,13 +64,26 @@ For cutting:
 - colours including Black, Red, Green, Blue, Magenta, Cyan, Yellow, all correspond to individual paths and settings. These can be established in the **vector layers** of the **control panel** on the right. 
 
 > ##### Good to know!
-> for cutting cardboard of 5.8mm thickness:
+> for cutting cardboard of 2.8mm thickness:
 >
 > Power 30, Speed 20, Pass 1 works well
+> same for Power 50, Speed 100 
 
+>For engraving cardboard of 2.8mm thickness:
+> Power 30, Speed 100 
+>
+> for cutting paper:
+> Power 10, Speed 100 = good (no burn marks unless gone over area multiple times)
+> 
+> for rastering on paper:
+> Power 10, Speed 100 = nothing happening
+> Power 20  Speed 75 = good, (no burn marks)
+> 
 
-For engraving and cutting:
-
+> for cutting thick paper:
+> 
+>
+>
 
 
 

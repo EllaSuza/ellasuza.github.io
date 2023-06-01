@@ -6,6 +6,13 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
+WHEN TO USE PARAMETERS:
+- height
+- width
+- length
+- thickness
+
+
 
 I am making a small box out of acrylic to store circuit boards the students at Fabacademy are working with. I am working with a material of 3.0 mm, and made a PressFit comb for it because I want the box to have finger joints. On this page I will record how to set up user parameters and make finger joints.
 

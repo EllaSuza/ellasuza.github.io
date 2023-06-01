@@ -5,9 +5,6 @@ layout: default
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
 NOTES:
-- always use climb
-- use tabs to keep components secure during the jobs, otherwise it will move around
-    - atleast two, otherwise every 20-30cm
 - take picture of xy origin before making it zero
 - XY Datum position is the 'job starting point', similar to the lasercutter
 - holes made for the screws depends on your milling bit
@@ -18,7 +15,8 @@ NOTES:
 - diameter pocket circle = 30
 
 
-
+### What is CNC?
+A manufacturing method that automates the control, movement and precision of machine tools through the use of preprogrammed computer software, which is embedded inside the tools
 
 # Our CNC Milling machine : SHOPBOT
 
@@ -273,8 +271,11 @@ Define:
    -  CUT DIRECTION:   climb
 
 TABS:
-In order to get this inner profile out of the material easily, you add tabs to the toolpath. Place these on the shape of your cut
-    check the box for adding tabs to toolpath
+We use tabs to keep components secure during the jobs, otherwise it will move around
+    - atleast two, otherwise every 20-30cm
+You add tabs to the toolpath. Place these on the shape of your cut
+
+check the box for adding tabs to toolpath
    -  LENGTH:         5.0 mm
     - THICKNESS:      4.0 mm
 
@@ -334,19 +335,26 @@ These steps are important because the Z-axis will automatically move down and it
 
 - Load the drilling toolpath by pressing the LOAD PART FILE in the POSITION window.
 
+- Turn on the ventilation and give it a minute to fully gain its power.
+
+<img src="/assets/images/shopbot/ventulation.jpg" height="500">
+
 - Put the key attached to the wrench in the keyhole found underneath the machine's ON/OFF knob and turn it. The milling bit should start turning.
 
 - On the varispeed box, manually define the spindle speed to 18000.
 
 <img src="/assets/images/shopbot/varispeedset.jpg" height="500"> 
 
-- Turn on the ventilation and give it a minute to fully gain its power.
-
-<img src="/assets/images/shopbot/ventulation.jpg" height="500">
-
 - Face back to the screen in Shopbot 3, and press START (dont change anything). Until you know for sure that it is going well, keep your hand hovered above the spacebar on the keyboard. If necessary, pressing it will pauze the job.
 
-- Once the drilling job is finished (which will have created pockets), screw the material onto the sacrificial layer at the indicated points.
+- Once the drilling job is finished (which will have created pockets), move the milling head with the arrows to the back so you have access to the material. 
+
+> ### GOOD TO KNOW!
+The machine does not know the end limit of movement on the x,y, and z axis, and if you assign it to
+move beyond them it will try to do so. Although it can't, it will think that its position is further than it is. So when you move the milling head up before you move it backwards in the step above, only do so much that is necessary! Otherwise you will have to recallibrate the z-axis.
+>
+
+- screw the material onto the sacrificial layer at the indicated points.
 
 - Load the toolpath for the rest of the job, and hit START once more.
 

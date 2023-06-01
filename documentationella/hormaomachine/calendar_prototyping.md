@@ -91,3 +91,19 @@ I used the same design in Fusion of the middle connection piece, and made the te
 
 In the image above you can clearly see that the position of the teeth is also completely off. I forgot that I had changed the positions in Lightburn, for a reason I cannot recall. I will have to measure the physical bases to make the connection piece allign, or recut the bases.
 
+
+
+## PROTOTYPE 3: The cycle watch/bracelet
+
+I want to make the calendar wearable, and therefore more compact and sturdy. I am building off of the previous designs.
+Because I am going to be 3d printing and lasercutting components that need to fit together, I need a clearer work flow so that measurements don't get lost along the way.
+- Design the structure in Fusion 360
+- Export lasercutting components as dxf
+_ Export 3d components as obj/stl
+- Import finished dxf design to Illustrator, and apply graphics
+- Import obj/stl to slicer for printer
+
+DON'T GO BACK AND FORTH!!
+
+> #### GOOD TO KNOW
+> In fusion360, if you copy and paste a component it will automatically stay linked to the origin component. So if you make changes this will directly do so to the origin component as well. In order to avoid this, When pasting. choose PASTE NEW. 

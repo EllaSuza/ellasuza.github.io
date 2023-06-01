@@ -18,3 +18,5 @@ Line interval: 0.1
 
 (image of outcome)
 
+LINE MODE:
+
