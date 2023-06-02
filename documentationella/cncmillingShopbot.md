@@ -169,7 +169,7 @@ A manufacturing method that automates the control, movement and precision of mac
  
  Save these settings by clicking OK.
 
-<img src="/assets/images/shopbot/jobsetup.png" height="600"> _image of screen_
+<img src="/assets/images/shopbot/jobsetup.PNG" height="600"> _image of screen_
 
 
 ### DRAWING
@@ -210,7 +210,7 @@ Always use climb as a beginner.
 
 You want to make sure the milling bit and collet you intend on using matches what is defined in the settings for each toolpath, like below:
 
-<img src="/assets/images/shopbot/tool end mill pop.png" height="600"> _defining the milling tool_
+<img src="/assets/images/shopbot/tool end mill pop.PNG" height="600"> _defining the milling tool_
 
 
 At the bottom of the window, give it an identifiable name.
