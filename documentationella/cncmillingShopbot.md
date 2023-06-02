@@ -4,16 +4,6 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
-NOTES:
-- take picture of xy origin before making it zero
-- XY Datum position is the 'job starting point', similar to the lasercutter
-- holes made for the screws depends on your milling bit
-    - i will use 3mm end mill
-
-- big square = 200x200mm
-- small square = 100x100mm
-- diameter pocket circle = 30
-
 
 ### What is CNC?
 A manufacturing method that automates the control, movement and precision of machine tools through the use of preprogrammed computer software, which is embedded inside the tools
@@ -179,7 +169,8 @@ A manufacturing method that automates the control, movement and precision of mac
  
  Save these settings by clicking OK.
 
-(image of screen)
+<img src="/assets/images/shopbot/jobsetup.png" height="600"> _image of screen_
+
 
 ### DRAWING
 
@@ -216,6 +207,11 @@ Always use climb as a beginner.
   - TOOL:            Select a tool from the preset tools. If you do make changes, click on EDIT and not SELECT so that the original setting stay the same
 
 <img src="/assets/images/shopbot/drillpath setup.PNG" height="500"> _image of screen_
+
+You want to make sure the milling bit and collet you intend on using matches what is defined in the settings for each toolpath, like below:
+
+<img src="/assets/images/shopbot/tool end mill pop.png" height="600"> _defining the milling tool_
+
 
 At the bottom of the window, give it an identifiable name.
 
@@ -349,7 +345,7 @@ These steps are important because the Z-axis will automatically move down and it
 
 - Once the drilling job is finished (which will have created pockets), move the milling head with the arrows to the back so you have access to the material. 
 
-> ### GOOD TO KNOW!
+> ##### GOOD TO KNOW!
 The machine does not know the end limit of movement on the x,y, and z axis, and if you assign it to
 move beyond them it will try to do so. Although it can't, it will think that its position is further than it is. So when you move the milling head up before you move it backwards in the step above, only do so much that is necessary! Otherwise you will have to recallibrate the z-axis.
 >
