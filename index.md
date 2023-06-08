@@ -53,6 +53,8 @@ layout: default
 
 ## FURTHER DOCUMENTATION
 
+[WORKING WITH KICAD]({{ '/documentationella/kiCAD.html' |relative_url }})
+
 [SIGNS FOR LOCAL COLOUR]({{ '/documentationella/soldering.html' |relative_url }})
 
 
@@ -82,4 +84,5 @@ layout: default
 
 [ELECTRONICS DESIGN]({{ '/documentationella/Electronicsdesign.html' | relative_url }})
 
-[USEFUL AND MISCELLANEOUS RESOURCES]({{ '/documentationella/usefulresources.html' | relative_url }})
+
+[USEFUL YET MISCELLANEOUS RESOURCES]({{ '/documentationella/usefulresources.html' | relative_url }})
