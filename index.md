@@ -38,7 +38,10 @@ layout: default
 [OUR PCB CNC MILLING MACHINE : MODELA]({{ '/documentationella/modelamachine.html' | relative_url }})
 
 
-[LASER CUTTER]({{ '/documentationella/lasercutter.html' | relative_url }})
+[LASER CUTTER BRM1612]({{ '/documentationella/lasercutter.html' | relative_url }})
+
+
+[FULL SPECTRUM LASERCUTTER]({{ '/documentationella/retinaengravelaser.html' | relative_url }})
 
 
 [OUR 3D PRINTERS AT WAAG]({{ '/documentationella/Our3Dprinters.html' | relative_url }})
@@ -46,8 +49,6 @@ layout: default
 
 [OUR VINYL CUTTER]({{ '/documentationella/vinylcutter.html' | relative_url }})
 
-
-[FULL SPECTRUM LASERCUTTER]({{ '/documentationella/retinaengravelaser.html' | relative_url }})
 
 
 

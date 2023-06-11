@@ -30,6 +30,9 @@ layout: default
 : a small surface of copper in a printed circuit board that allows soldering the component to the board
 : two types; thru-hole and SMD (surface mount)
 
+#### NET
+: collection of pads on the PCB that should be electrically connected to one another
+
 
 ## STEPS
 
@@ -114,10 +117,30 @@ THE POP-UP WINDOW:
     - a pop up window will appear where you can write the text
     - select the same material as the rest of the text labels (F.Silkscreen)
 
-- select the copper layer
+- select the front copper layer
 - To add filled zones, select the **add a filled zone** tool
+- in the pop-up window, select a net to ground to????
 - select the edges of your board
 
+- select the back copper layer
+- add fill zone
+- in the pop-up window, select a net to ground to???
+- select the edges of your board
+
+- to export;
+    - click on **plot** in the top right bar
+    - in the pop-up window, select an output directory
+    - make sure 
+        front copper, 
+        back copper, 
+        front mask, 
+        back mask,
+        front silk,
+        back silk,
+        and edge cut
+    are selected
+    - click on plot
+    - click on generate drill file
 
 > ### SHORTCUTS:
 
