@@ -39,18 +39,26 @@ h2, h3, h4, h5, h6 {
 }
 
 
+#main_content h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
 #main_content h2 {
   font-weight: bold;
+  font-size: 35px;
 }
 
 #main_content h3 {
   color: $orange;
+  font-size: 25px;
   text-transform: uppercase;
 }
 
 #main_content h4 {
   color: #90a959;
   font-weight:800;
+  font-size: 24px;
   text-transform: uppercase;
 }
 

@@ -14,7 +14,8 @@ layout: default
 : making a printed circuit board from your digitally designed circuit
 
 <img src="/assets/images/modela/modela12.jpg" width="800"> 
-_photo of modela_
+
+_photo of modela MDX 20 station_
 
 
 #### Making your own in our Fablab
@@ -25,11 +26,16 @@ To design a circuit, we use kiCAD software. To learn how to do so before using t
 
 
 #### KEEP IN MIND!
-: in comparison to our Shopbot milling machine, this machine has a small bed for milling
-: the milling bits are fragile, use them with care
-: avoid touching the copper plate or sacrificial layer with your fingers too much
-: because we are working with very small measurements, even an ever so slight unevenness within any of the surfaces can influence the final product
-: Roland MDX/ iModela module of mods (the software) operates the x- and y-axis, the z-axis is adjusted from the machine itself
+
+**: in comparison to our Shopbot milling machine, this machine has a small bed for milling**
+
+**: the milling bits are fragile, use them with care**
+
+**: avoid touching the copper plate or sacrificial layer with your fingers too much**
+
+**: because we are working with very small measurements, even an ever so slight unevenness within any of the surfaces can influence the final product**
+
+**: Roland MDX/ iModela module of mods (the software) operates the x- and y-axis, the z-axis is adjusted from the machine itself**
 
 ### ITS STRUCTURE
 
@@ -56,7 +62,7 @@ two types we use:
 
 * * *
 
-### PREPARATION AT MACHINE STATION
+## PREPARATION AT MACHINE STATION
 
 
 1. Measure the thickness at different areas of the copper plate you will be drilling onto, and write these down for later.
