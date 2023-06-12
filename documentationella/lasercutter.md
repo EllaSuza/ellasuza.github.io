@@ -4,14 +4,14 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
-# Our laser cutter
+# Our laser cutters
 
 #### MACHINE: BRM1612
 #### SOFTWARE: LIGHTBURN
 
 _We have a laser cutter in Fablab. Although there are similarities, before working with a new lasercutter you should inform yourself on the software it is driven by and its specific machine quirks._
 
-![lasercutter](/assets/images/fusion360intro/fusion360intro1.png)
+![lasercutter](/assets/images/lasercutter/lasercutterstation.jpg)
 
 # Safety
 

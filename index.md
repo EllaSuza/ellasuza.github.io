@@ -41,7 +41,7 @@ layout: default
 [LASER CUTTER BRM1612]({{ '/documentationella/lasercutter.html' | relative_url }})
 
 
-[FULL SPECTRUM LASERCUTTER]({{ '/documentationella/retinaengravelaser.html' | relative_url }})
+[LASERCUTTER FULL SPECTRUM]({{ '/documentationella/retinaengravelaser.html' | relative_url }})
 
 
 [OUR 3D PRINTERS AT WAAG]({{ '/documentationella/Our3Dprinters.html' | relative_url }})
