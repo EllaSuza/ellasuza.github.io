@@ -1,7 +1,12 @@
+---
+layout: default
+---
+
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
 Helping the textile lab with their long term project **LOCAL COLOURS**, making signs for the different plants in the garden.
 
+<a href="https://waag.org/nl/project/local-color/" target="blank" rel="noopener noreferrer" >WAAG website for more information </a> 
 
 
 FIRST TRIAL:

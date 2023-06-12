@@ -38,16 +38,16 @@ layout: default
 [OUR PCB CNC MILLING MACHINE : MODELA]({{ '/documentationella/modelamachine.html' | relative_url }})
 
 
-[LASER CUTTER BRM1612]({{ '/documentationella/lasercutter.html' | relative_url }})
+[OUR LASER CUTTER BRM1612]({{ '/documentationella/lasercutter.html' | relative_url }})
 
 
-[LASERCUTTER FULL SPECTRUM]({{ '/documentationella/retinaengravelaser.html' | relative_url }})
+[OUR LASERCUTTER FULL SPECTRUM]({{ '/documentationella/retinaengravelaser.html' | relative_url }})
 
 
-[OUR 3D PRINTERS AT WAAG]({{ '/documentationella/Our3Dprinters.html' | relative_url }})
+[OUR 3D PRINTERS]({{ '/documentationella/Our3Dprinters.html' | relative_url }})
 
 
-[OUR VINYL CUTTER]({{ '/documentationella/vinylcutter.html' | relative_url }})
+[OUR VINYL CUTTERS]({{ '/documentationella/vinylcutter.html' | relative_url }})
 
 
 
@@ -56,7 +56,8 @@ layout: default
 
 [WORKING WITH KICAD]({{ '/documentationella/kiCAD.html' |relative_url }})
 
-[SIGNS FOR LOCAL COLOUR]({{ '/documentationella/soldering.html' |relative_url }})
+
+[SIGNS FOR LOCAL COLOUR]({{ '/documentationella/localcolours.html' |relative_url }})
 
 
 [SOLDERING BOARDS]({{ '/documentationella/soldering.html' |relative_url }})
@@ -71,7 +72,7 @@ layout: default
 [FUSION 360]({{ '/documentationella/Fusion360.html' | relative_url }})
 
 
-[PRESS FIT]({{ '/documentationella/PressFit.html' | relative_url }})
+[A PRESS FIT COMB TEST]({{ '/documentationella/PressFit.html' | relative_url }})
 
 
 [USER PARAMETRICS IN FUSION360]({{ '/documentationella/UserParametrics_Fusion360.html' | relative_url }})

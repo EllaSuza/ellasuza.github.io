@@ -4,24 +4,27 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
+How to:
+Make a pressfit comb
 
 ### Kerf Correction
 
 When using a laser cutter to makes cuts in whatever material, there is a portion of that material that gets burnt away. This is referred to as the laser Kerf and can range from 0.08mm to 1mm of material that is lost in the process.
 It is recommended to keep the minumum cut width no smaller than the thickness of the chosen material. 
 
-I am going to be making a PressFit before making the box. This is important because I need the finger joints to sit snug so I don't need to use glue for example to keep it together. This is not an exact way of determining the laser Kerf, but fitting for my context. To determine the exact laser Kerf, check out these links : 
+I am going to be making a PressFit comb before making the box. This is important because I need the finger joints to sit snug so I don't need to use glue for example to keep it together. This is not an exact way of determining the laser Kerf, but fitting for my context. To determine the exact laser Kerf, check out these links : 
 
-https://www.instructables.com/Kerf-Correction-for-Laser-Cutting-With-MakerCase/
 
-# Making a Press Fit
+<a href="https://www.instructables.com/Kerf-Correction-for-Laser-Cutting-With-MakerCase/" target="blank" rel="noopener noreferrer" >Lasercuttting with MakerCase </a>
+
+
+# Making a Press Fit design
 
 Before making a box out of plexiglass to keep my circuit boards safe, I want to determine the Kerf correction of the material. This PressFit, also known as a joint clearance comb, is a tangible way of finding the right values for your finger joints depending on the type of material you are using. 
 
+<a href="https://cutlasercut.com/drawing-resources/expert-tips/laser-kerf/" target="blank" rel="noopener noreferrer" >cutlasercut.com </a>
 
 
-
-Resource https://cutlasercut.com/drawing-resources/expert-tips/laser-kerf/
 
 # A Working in Fusion 360
 This software is useful for parametric design, so I decided use it. I initially used Illustrator but seeing it is not meant for this type of projects it became very unnecessarily complicated. On a different page of this site I document me learning how to use this software, with basic experience of 3D modelling. 

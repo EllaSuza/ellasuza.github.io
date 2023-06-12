@@ -4,14 +4,26 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
+We have five 3D printers in our fablab
+#### Prusa i3MK3S
+#### Ender
+#### Ultimaker
+#### Belt printer
+#### Resin Printer
 
+On this page you can find instructions on how to work with them, work with their software and possible maintenance. 
 
-# Prusa
+### How to work with:
+# Prusa i3MK3S
 
-Slicer: Prusa Slicer
+##### Software: Prusa Slicer
+- determining machine settings
+- converting your 3D design file to gcode
+- <a href="https://www.prusa3d.com/page/prusaslicer_424/" target="blank" rel="noopener noreferrer" >download here </a> 
+
+##### USEFUL LINKS:
 
 filament support : https://all3dp.com/2/prus-slicer-support-settings-tree-supports/
-
 
 #### WITHIN SOFTWARE
 
@@ -37,8 +49,11 @@ filament support : https://all3dp.com/2/prus-slicer-support-settings-tree-suppor
 
 
 - If there are overhangs, look at the design and see if it will need support material.
+    - You can specify where this support material is printed by choosing **support enforces only** found in the drop down menu **supports** in the right toolbar.
+    - Then you can use the **paint-on supports** tool in the left toolbar to define where you want the support.
 
-#### WITH THE 3D PRINTER
+
+#### AT THE MACHINE
 
 The interface is simple to use and control with the knob at the right of the screen.
 
@@ -50,17 +65,43 @@ The interface is simple to use and control with the knob at the right of the scr
 
 The first few layers are very important, so observe closely for these.
 
+### How to work with:
+# Creality Ender 3
+
+##### Software: Prusa Slicer
+- determining machine settings
+- converting your 3D design file to gcode
+- <a href="https://www.prusa3d.com/page/prusaslicer_424/" target="blank" rel="noopener noreferrer" >download here </a> 
+
+##### USEFUL LINKS:
+video with an overview of where the filament is fed through : https://www.youtube.com/watch?v=20xTO4HkuZY
 
 
+#### IN THE SOFTWARE
 
 
+#### AT THE MACHINE
+
+
+### How to work with:
+# Ultimaker
+
+##### Software: Cura Slicer
+- determining machine settings
+- converting your 3D design file to gcode
+- <a href="https://ultimaker.com/software/ultimaker-cura/?gad=1&gclid=CjwKCAjwhJukBhBPEiwAniIcNSBgv8rxvXFqLpEqH3e8JEoTLmOSDA2V1waV6UOlsTx6IQz2Dx_GghoCh2YQAvD_BwE" target="blank" rel="noopener noreferrer" >download here </a> 
+
+### How to work with:
+# Resin Printer
+
+#### AT THE MACHINE
+
+#### IN THE SOFTWARE
 
 
 # Maintainance
 
-
-# Prusa
-
+## PRUSA
 
 ### Extruder Gears
 
@@ -114,18 +155,3 @@ https://www.youtube.com/watch?v=hBkTeXxcFi8
 https://www.youtube.com/watch?v=G50Q9a8uOKc
 
 
-
-# Creality Ender 3
-
-
-Loading filament 
-
-A nice video with an overview of where the filament is fed through : https://www.youtube.com/watch?v=20xTO4HkuZY
-
-
-
-# Ultimaker
-
-Slicer: Cura
-
-# Resin Printer
