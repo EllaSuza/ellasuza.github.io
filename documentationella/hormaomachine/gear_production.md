@@ -4,7 +4,7 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
-[Part of Hormao Machine]({{ '../index.html' |relative_url }})
+[Part of Hormao Machine]({{ 'documentationella/hormaomachine/hormaomachine.html' |relative_url }})
 
 
 I want to make a bunch of different gears that I can control through stepper motors.

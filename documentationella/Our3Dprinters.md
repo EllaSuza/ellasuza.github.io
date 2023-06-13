@@ -99,7 +99,7 @@ video with an overview of where the filament is fed through : https://www.youtub
 #### IN THE SOFTWARE
 
 
-# Maintainance
+# Maintenance
 
 ## PRUSA
 

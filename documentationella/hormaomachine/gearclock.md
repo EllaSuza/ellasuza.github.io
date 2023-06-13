@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[BACK TO HOME]({{ '../index.html' |relative_url }})
+[BACK TO HOME]({{ '../hormaomachine/hormaomachine.html' |relative_url }})
 
 [Part of Hormao Machine]({{ 'documentationella/hormaomachine/hormaomachine.html' |relative_url }})
 
