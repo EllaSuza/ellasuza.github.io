@@ -116,3 +116,24 @@ thickness of wood for lasercutting
 diameter of hole for bolts
 
 - Next time I do this, however, I will make the whole design parametrically put together. This will make it a lot easier to make small changes as well as work towards the larger picture of my project which is for these tools to be adaptable for different people.
+
+### EXPORT LASERCUTTING COMPONENTS AS DXF
+
+### EXPORT 3D COMPONENTS AS OBJ/STL
+
+### IMPORT FINISHED DXF DESIGN TO ILLUSTRATOR AND APPLY GRAPHICS
+
+
+<img src="/assets/images/calendarprototyping/watchinillustrator.png" width="600"> _imported_
+
+
+
+#### creating graphs out of my collected data of cycles 2, 3, and 4 of the year 2023
+<img src="/assets/images/calendarprototyping/line-graph.png" width="600"> _cycles 2, 3, and 4 of 2023_
+
+<img src="/assets/images/calendarprototyping/line-graph-2.png" width="600"> _design to create_
+
+
+
+
+
