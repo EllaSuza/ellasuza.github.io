@@ -6,11 +6,18 @@ layout: default
 
 [Part of Hormao Machine]({{ 'documentationella/hormaomachine/hormaomachine.html' |relative_url }})
 
-
+# GEAR PRODUCTION
 I want to make a bunch of different gears that I can control through stepper motors.
 
 
-### Laser cutting generic gears
+<img src="/assets/images/gearproduction/2.gif" width="300"> 
+<img src="/assets/images/gearproduction/3.gif" width="300"> 
+<img src="/assets/images/gearproduction/4.gif" width="300"> 
+
+<img src="/assets/images/gearproduction/1.mp4" width="300"> 
+<img src="/assets/images/gearproduction/2.mp4" width="300"> 
+
+### Laser cutting gears
 
 
 ### 3D printing spiral gears
@@ -20,20 +27,26 @@ https://www.thingiverse.com/thing:29596/comments
 
 - gear pairs
 
-(image of print 1)
+<img src="/assets/images/gearproduction/gearinslicer.png" width="500"> 
+_print 1_
 
 Filament: MagicPLA Metallic Emerald
     Diameter: 1,75mm
     1000G
+
 Nozzle temperature : 215-235 degrees
+
 Bed temperature : 50-70 degrees
 
 Print settings : 0.30mm DRAFT
+
 Layer height: 0.3mm
+
 Size: 111.53 x 111.6 x 3 mm
+
 Supports: None
 
-
+<img src="/assets/images/hormaomachine/1.gif" width="500"> 
 (image of print 2)
 
 Michelle showed me a Twist Lock Trick Box after I showed her the second gear print:
@@ -120,6 +133,11 @@ In Prusa Slicer:
 (image of printed object)
 
 NOTE: the hole was too small for the step motor pin- make it slightly bigger on both width and length
+
+
+<img src="/assets/images/gearproduction/compositiongears.jpg" width="300"> 
+
+<img src="/assets/images/gearproduction/backofgear.jpg" width="300"> 
 
 
 # RESOURCES

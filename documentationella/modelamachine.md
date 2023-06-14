@@ -127,9 +127,11 @@ In the node Websocket pyserial, close the 'serialserver.py' socket and port.
 Go back to the node Websocket serial, and open the 'serialserver.js' socket and port.
 #### 3e. 
 Within the nodes on the left 'open png' and 'open svg' you may open your file.
-    - the white segments are what you want to keep, black is what will be drilled.
+    - the **white segments are what you want to keep, black is what will be drilled**.
     - check the size of the design and make sure it is what you intend.
     - check the DPI value; if it is below 1000 change it to so.
+
+<img src="/assets/images/modela/PNG_Image_probeboard.png" width="500"> <img src="/assets/images/modela/PNG_outline_probeboard.png" width="500"> 
 
 <img src="/assets/images/modela/modela13.jpg" width="500"> 
 

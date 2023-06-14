@@ -22,8 +22,8 @@ I followed this instructable:  https://www.instructables.com/Linear-Motion-by-Ca
 - is a bit strange because i am going from linear to circular to linear narrative but I just want to try it
 - After quite some troubleshooting, I was able to run it smoothly by hand
 
-![linear movement](/assets/images/mechanismmaking/linearmove.mp4)
-
+<img src="/assets/images/mechanismmaking/linearmove.jpg" height="500"> 
+<img src="/assets/images/mechanismmaking/linearmove.mp4" height="500"> 
 
 #### Whats next?
 

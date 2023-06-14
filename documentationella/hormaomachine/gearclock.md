@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[BACK TO HOME]({{ '../hormaomachine/hormaomachine.html' |relative_url }})
+[BACK TO HOME]({{ '../index.html' |relative_url }})
 
 [Part of Hormao Machine]({{ 'documentationella/hormaomachine/hormaomachine.html' |relative_url }})
 
@@ -31,3 +31,6 @@ Drilling was not an option (gears were way too fragile) so I recut them with new
 
 (image of different sized holes in gears)
 
+<img src="/assets/images/gearclock/gearclock1.jpg" width="300"> 
+<img src="/assets/images/gearclock/gearclock2.jpg" width="300"> 
+<img src="/assets/images/gearclock/gearclock3.jpg" width="300"> 

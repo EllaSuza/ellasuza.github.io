@@ -4,7 +4,7 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
-[Part of Hormao Machine]({{ '../index.html' |relative_url }})
+[Part of Hormao Machine]({{ 'documentationella/hormaomachine/hormaomachine.html' |relative_url }})
 
 On this page, I document my process of and research on controlling the movement of motors with light sensors.
 

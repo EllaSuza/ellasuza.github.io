@@ -77,7 +77,7 @@ For more information on how I designed and built it, view my page:
 
 [Gear production]({{ '/documentationella/hormaomachine/gear_production.html' | relative_url }})
 
-[Motors and Light Sensor]({{ '/documentationella/motor+lightsensor.html' | relative_url }})
+[Motors and Light Sensor]({{ '/documentationella/motorlightsensor.html' | relative_url }})
 
 [Mechanism Making]({{ '/documentationella/hormaomachine/mechanismmaking.html' | relative_url }})
 

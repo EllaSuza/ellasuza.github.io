@@ -7,8 +7,10 @@ layout: default
 
 [Part of Hormao Machine]({{ 'documentationella/hormaomachine/hormaomachine.html' |relative_url }})
 
-
 # Calendar with cyclical variables
+
+<img src="/assets/images/calendarprototyping/workchaos.jpg" width="800"> 
+
 
 I wanted to create a calendar with replacable components so that I could use the same structure for tracking multiple things. The first idea I had was to have multiple movable circles held together, working similarly to a compass. I first made it out of carboard and laser cutting it.
 
@@ -16,6 +18,11 @@ I wanted to create a calendar with replacable components so that I could use the
 ## PROTOYPE 1 : cardboard
 
 #### The cardboard I used : 2.5mm
+
+#### DESIGN IN FUSION
+
+<img src="/assets/images/calendarprototyping/calendarinfusion.png" width="600"> 
+
 
 #### The cutting settings I used in Lightburn
 speed: 80
@@ -77,21 +84,6 @@ I then used the graph I had made, [more info on that here]({{ '../hormaomachine/
 View [Our lasercutter]({{ 'documentationella/lasercutter.html' |relative_url }}) page for more information on settings and options
 
 
-## Middle finger joint pressfit
-#### 3D printing
-
-As I mentioned before, the middle connection point between the two base faces that keeps all the components together, isn't stable enough. I want to try 3D printing this, so that the structure is more dense and not made of multiple pieces. My first test shows below:
-
-<img src="/assets/images/calendarprototyping/midjointfit.jpg" width="300"> 
-
-I used the same design in Fusion of the middle connection piece, and made the teeth 6mm longer in height. You can see, however, that the faces of the teeth are too wide and long. This is probably because there is little to no play in the structure of filament compared to the wood. There is also no Kerf from a laser that eats material. I think if I add a negative offset of 1mm, it will work better.
-
-
-<img src="/assets/images/calendarprototyping/midjointposition.jpg" width="300"> 
-
-In the image above you can clearly see that the position of the teeth is also completely off. I forgot that I had changed the positions in Lightburn, for a reason I cannot recall. I will have to measure the physical bases to make the connection piece allign, or recut the bases.
-
-
 
 ## PROTOTYPE 3: The cycle watch/bracelet
 
@@ -102,8 +94,25 @@ Because I am going to be 3d printing and lasercutting components that need to fi
 _ Export 3d components as obj/stl
 - Import finished dxf design to Illustrator, and apply graphics
 - Import obj/stl to slicer for printer
+[3D printing components]({{ 'documentationella/hormaomachine/watch_3dcomponents.html' |relative_url }})
+
 
 DON'T GO BACK AND FORTH!!
 
 > #### GOOD TO KNOW
-> In fusion360, if you copy and paste a component it will automatically stay linked to the origin component. So if you make changes this will directly do so to the origin component as well. In order to avoid this, When pasting. choose PASTE NEW. 
+> In fusion360, if you copy and paste a component it will automatically stay linked to the origin component. So if you make changes this will directly do so to the origin component as well. In order to avoid this, When pasting. choose PASTE NEW.
+
+
+### DESIGN THE STRUCTURE IN FUSION 360
+
+
+<img src="/assets/images/calendarprototyping/watchinfusion1.png" width="600"> _without top base_
+
+<img src="/assets/images/calendarprototyping/watchinfusion2.png" width="600"> _with top base_
+
+- I made a couple of parameters:
+offset of joint for middle pressfit connection
+thickness of wood for lasercutting
+diameter of hole for bolts
+
+- Next time I do this, however, I will make the whole design parametrically put together. This will make it a lot easier to make small changes as well as work towards the larger picture of my project which is for these tools to be adaptable for different people.
