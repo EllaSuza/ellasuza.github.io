@@ -58,7 +58,7 @@ I made the two sides of the base slightly longer to be able to show more data, a
 ![prototype1calendar](/assets/images/calendarprototyping/calendarcyclical.mp4)
 
 
-I then used the graph I had made, [more info on that here]({{ '../hormaomachine/hormaomachine.html' |relative_url }}), and applied it to the structure in Illustrator.
+I then used the graph I had made, [more info on that here]({{ 'documentationella/hormaomachine/hormaomachine.html' |relative_url }}), and applied it to the structure in Illustrator.
 
 ![data representation applied to prototype](/assets/images/calendarprototyping/dataonprototype.png)
 
@@ -94,10 +94,15 @@ Because I am going to be 3d printing and lasercutting components that need to fi
 _ Export 3d components as obj/stl
 - Import finished dxf design to Illustrator, and apply graphics
 - Import obj/stl to slicer for printer
-[3D printing components]({{ 'documentationella/hormaomachine/watch_3dcomponents.html' |relative_url }})
 
 
-DON'T GO BACK AND FORTH!!
+DON'T GO BACK AND FORTH!! (you screw yourself over ella)
+
+- Any necessary adaptations
+    - Choose material to lasercut and if needed go into fusion to adapt parameter
+    - 3d printed middle connection piece outcome compare to bolts 
+
+    - go back to fusion to make needed changes
 
 > #### GOOD TO KNOW
 > In fusion360, if you copy and paste a component it will automatically stay linked to the origin component. So if you make changes this will directly do so to the origin component as well. In order to avoid this, When pasting. choose PASTE NEW.
@@ -121,6 +126,12 @@ diameter of hole for bolts
 
 ### EXPORT 3D COMPONENTS AS OBJ/STL
 
+top connection base to base
+middle connection base to base
+bottom connection base to base
+
+[page on process of 3D printing components]({{ 'documentationella/hormaomachine/watch_3dcomponents.html' |relative_url }})
+
 ### IMPORT FINISHED DXF DESIGN TO ILLUSTRATOR AND APPLY GRAPHICS
 
 
@@ -128,12 +139,33 @@ diameter of hole for bolts
 
 
 
-#### creating graphs out of my collected data of cycles 2, 3, and 4 of the year 2023
+##### creating graphs out of my collected data of cycles 2, 3, and 4 of the year 2023
 <img src="/assets/images/calendarprototyping/line-graph.png" width="600"> _cycles 2, 3, and 4 of 2023_
 
 <img src="/assets/images/calendarprototyping/line-graph-2.png" width="600"> _design to create_
 
 
 
+### ANY NECESSARY ADAPTATIONS
 
+- Material thickness of wood for lasercutting: 4mm
+- mid connection piece socket way too small for bolt
+
+
+- Went back to Fusion360 and:
+    - realized it didnt make it match the bolt so adapted the parameters
+    - extruded the connection pieces 2mm more
+    - exported one as a test
+    - back into slicer
+    
+
+
+
+RESEARCH ON DATA HORMONES
+
+https://www.ncbi.nlm.nih.gov/books/NBK279054/#:~:text=Estrogen%20levels%20rise%20and%20fall,end%20of%20the%20menstrual%20cycle.
+
+https://womeninbalance.org/about-hormone-imbalance/
+
+https://www.news-medical.net/health/Estradiol-Measurement.aspx
 

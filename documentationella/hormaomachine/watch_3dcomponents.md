@@ -24,6 +24,10 @@ I used the same design in Fusion of the middle connection piece, and made the te
 
 In the image above you can clearly see that the position of the teeth is also completely off. I forgot that I had changed the positions in Lightburn, for a reason I cannot recall. I will have to measure the physical bases to make the connection piece allign, or recut the bases.
 
+<img src="/assets/images/calendarprototyping/printing1/print1.jpg" width="300"> 
+<img src="/assets/images/calendarprototyping/printing1/print2.jpg" width="300"> 
+<img src="/assets/images/calendarprototyping/printing1/print3.jpg" width="300"> 
+
 
 ### SECOND ROUND:
 
@@ -38,3 +42,10 @@ The first time I cleaned the bed better, no difference.
 I then made the bed warmer (65 degrees), no difference.
 I went back to Prusa slicer and added support with the paint-on support tool on the overhang (automatically generated support showed nothing), because that is about the point where it would let go of the bed. I also went from **QUALITY 0.15mm** to **DETAIL 0.10mm** in print settings.
 
+<img src="/assets/images/calendarprototyping/printing2/midjointcomponent.jpg" width="600"> _mid joint component_
+
+<img src="/assets/images/calendarprototyping/printing2/warpingtests.jpg" width="600"> _tests that came out warped_
+
+<img src="/assets/images/calendarprototyping/printing2/printingwell.jpg" width="600"> _printing well_
+
+<img src="/assets/images/calendarprototyping/printing2/printdone.jpg" width="600"> _print done_
