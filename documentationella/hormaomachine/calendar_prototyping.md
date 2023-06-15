@@ -140,10 +140,21 @@ bottom connection base to base
 
 
 ##### creating graphs out of my collected data of cycles 2, 3, and 4 of the year 2023
+
 <img src="/assets/images/calendarprototyping/line-graph.png" width="600"> _cycles 2, 3, and 4 of 2023_
 
 <img src="/assets/images/calendarprototyping/line-graph-2.png" width="600"> _design to create_
 
+- This time around I am using data from three separate cycles, the longest one being 33 days. That is why this iteration has 33 data points.
+
+Instead of calculating a medium or mean from these three data groups, which is what I was planning, I decided to represent all of them to show the range in which these cycles can come to be. This is also more accurate to the experience of this specific fluctuation, instead of framing it in a linear manner.
+
+
+- Making slight adjustments to the base so it aligns with the graphics
+
+<img src="/assets/images/calendarprototyping/datapointsnotmatch.png" width="600"> _do not match_
+
+<img src="/assets/images/calendarprototyping/datapointsmatch.png" width="600"> _do match_
 
 
 ### ANY NECESSARY ADAPTATIONS
@@ -157,7 +168,10 @@ bottom connection base to base
     - extruded the connection pieces 2mm more
     - exported one as a test
     - back into slicer
-    
+more information is on my 3d components page.
+
+<img src="/assets/images/calendarprototyping/datapointsnotmatch.png" width="600"> _in illustrator_
+
 
 
 

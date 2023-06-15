@@ -49,3 +49,17 @@ I went back to Prusa slicer and added support with the paint-on support tool on 
 <img src="/assets/images/calendarprototyping/printing2/printingwell.jpg" width="600"> _printing well_
 
 <img src="/assets/images/calendarprototyping/printing2/printdone.jpg" width="600"> _print done_
+
+
+_image of iteration 2 3d print being slightly too tight_
+
+<img src="/assets/images/calendarprototyping/printing2/toosmallhole.jpg" width="600"> _print 2_
+
+
+<img src="/assets/images/calendarprototyping/holesadapted.png" width="600"> _adapted parametrically_
+
+<img src="/assets/images/calendarprototyping/print3/tootighthole.jpg" width="600"> _print 3_
+
+- The hole is still a little too tight, will give it slight more play (1mm in diameter). I will wait for this until I have my lasercut components to see if the pressfit fingers need adapting as well.
+
+
