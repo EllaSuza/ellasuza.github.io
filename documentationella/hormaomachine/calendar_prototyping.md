@@ -86,6 +86,7 @@ View [Our lasercutter]({{ 'documentationella/lasercutter.html' |relative_url }})
 
 
 ## PROTOTYPE 3: The cycle watch/bracelet
+#### ITERATION 1
 
 I want to make the calendar wearable, and therefore more compact and sturdy. I am building off of the previous designs.
 Because I am going to be 3d printing and lasercutting components that need to fit together, I need a clearer work flow so that measurements don't get lost along the way.
@@ -94,6 +95,9 @@ Because I am going to be 3d printing and lasercutting components that need to fi
 _ Export 3d components as obj/stl
 - Import finished dxf design to Illustrator, and apply graphics
 - Import obj/stl to slicer for printer
+- 3d print components
+- lasercut components
+- assemble
 
 
 DON'T GO BACK AND FORTH!! (you screw yourself over ella)
@@ -124,13 +128,16 @@ diameter of hole for bolts
 
 ### EXPORT LASERCUTTING COMPONENTS AS DXF
 
+- I created a new component with sketches that hold projections of all faces I need to lasercut. <img src="/assets/images/calendarprototyping/watchinfusion2.png" width="600"> _with top base_
+
+
 ### EXPORT 3D COMPONENTS AS OBJ/STL
 
 top connection base to base
 middle connection base to base
 bottom connection base to base
 
-[page on process of 3D printing components]({{ 'documentationella/hormaomachine/watch_3dcomponents.html' |relative_url }})
+
 
 ### IMPORT FINISHED DXF DESIGN TO ILLUSTRATOR AND APPLY GRAPHICS
 
@@ -168,10 +175,40 @@ Instead of calculating a medium or mean from these three data groups, which is w
     - extruded the connection pieces 2mm more
     - exported one as a test
     - back into slicer
+
 more information is on my 3d components page.
 
-<img src="/assets/images/calendarprototyping/datapointsnotmatch.png" width="600"> _in illustrator_
+<img src="/assets/images/calendarprototyping/holesadapted.png" width="600"> _in fusion360, holes adapted_
 
+
+### 3D printing components
+
+[page on process of 3D printing components]({{ 'documentationella/hormaomachine/watch_3dcomponents.html' |relative_url }})
+
+### Lasercut components
+
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/data_iteration1.jpg" width="600"> _in fusion360, holes adapted_
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/frontbase_iteration1.jpg" width="600"> _in fusion360, holes adapted_
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/inlasercutter.jpg" width="600"> _in fusion360, holes adapted_
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/innerseasons_iteration1.jpg" width="600"> _in fusion360, holes adapted_
+
+
+- When comparing the sockets to the finger joints on the 3d printed component, multiple elements were off:
+the size of the finger
+the distance between the fingers
+<img src="/assets/images/calendarprototyping/laser_iteration2/mismatchfingerjoint.jpg" width="600"> _in fusion360, holes adapted_
+
+#### checking dimensions of lasercut pieces to find where the mis sizing is coming from
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/size_topbase.jpg" width="600"> _in fusion360, holes adapted_
+
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/size_topbase2.jpg" width="600"> __
+<img src="/assets/images/calendarprototyping/laser_iteration2/size_topbase3.jpg" width="600"> __
 
 
 
