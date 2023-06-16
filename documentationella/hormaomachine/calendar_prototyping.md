@@ -182,47 +182,112 @@ more information is on my 3d components page.
 <img src="/assets/images/calendarprototyping/holesadapted.png" width="600"> _in fusion360, holes adapted_
 
 
-### 3D printing components
+#### 3D printing components
 
 [page on process of 3D printing components]({{ 'documentationella/hormaomachine/watch_3dcomponents.html' |relative_url }})
 
-### Lasercut components
+#### Lasercut components
 
 
-<img src="/assets/images/calendarprototyping/laser_iteration2/data_iteration1.jpg" width="600"> _in fusion360, holes adapted_
+<img src="/assets/images/calendarprototyping/laser_iteration2/inlasercutter.jpg" width="600"> 
 
-<img src="/assets/images/calendarprototyping/laser_iteration2/frontbase_iteration1.jpg" width="600"> _in fusion360, holes adapted_
+_I did a couple of tests with different engraving settings before cutting components. I found that the image mode did not come out well at all, so I ended up doing line engraving in both fill mode and line mode_
 
-<img src="/assets/images/calendarprototyping/laser_iteration2/inlasercutter.jpg" width="600"> _in fusion360, holes adapted_
+## SETTINGS USED:
 
-<img src="/assets/images/calendarprototyping/laser_iteration2/innerseasons_iteration1.jpg" width="600"> _in fusion360, holes adapted_
+##### CUTTING
+Speed : 40
+Power : 100
 
+##### ENGRAVING LINE
+Speed: 25
+Power : 10
+
+(took extremely long, could heighten both power and speed)
+
+
+##### ENGRAVING FILL
+Speed : 150
+Power : 10
+
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/data_iteration1.jpg" width="600"> 
+
+_data plotter_
+
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/frontbase_iteration1.jpg" width="600"> 
+
+_front base_
+
+On the left you see the line engraving, and it started acting super strange. I am still not sure why, but I changed it to fill mode and kept the S/P the same, and on the right shows that outcome.
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/innerseasons_iteration1.jpg" width="600"> 
+
+_inner seasons cycle_
+
+
+### ASSEMBLING
 
 - When comparing the sockets to the finger joints on the 3d printed component, multiple elements were off:
 the size of the finger
 the distance between the fingers
-<img src="/assets/images/calendarprototyping/laser_iteration2/mismatchfingerjoint.jpg" width="600"> _in fusion360, holes adapted_
-
-#### checking dimensions of lasercut pieces to find where the mis sizing is coming from
-
-<img src="/assets/images/calendarprototyping/laser_iteration2/baselength.jpg" width="600"> _width in fusion360 is 45mm_
-
-<img src="/assets/images/calendarprototyping/laser_iteration2/basewidth.jpg" width="600"> _length in fusion360 is 140mm_
-
-Dimensions of outcome in comparison to design in Fusion360:
-<img src="/assets/images/calendarprototyping/laser_iteration2/basehole2.jpg" width="600"> _physical_
-<img src="/assets/images/calendarprototyping/laser_iteration2/sizebase_fusion.png" width="600"> _in fusion_
-<img src="/assets/images/calendarprototyping/laser_iteration2/connectionlength.jpg" width="600"> _in fusion360 its 30mm_
-<img src="/assets/images/calendarprototyping/laser_iteration2/sizebase_fusion.png" width="600"> _in fusion360_
 
 
+<img src="/assets/images/calendarprototyping/laser_iteration2/mismatchfingerjoint.jpg" width="300"> _in fusion360, holes adapted_
 
-<img src="/assets/images/calendarprototyping/laser_iteration2/basesocket.jpg" width="600"> _physical_
+#### checking dimensions of components to find where the mis sizing is coming from
 
-<img src="/assets/images/calendarprototyping/laser_iteration2/sizeconnection_fusion.png" width="600"> _in fusion360_
-<img src="/assets/images/calendarprototyping/laser_iteration2/connectionfinger.jpg" width="600"> _physical_
+<img src="/assets/images/calendarprototyping/laser_iteration2/baselength.jpg" width="300"> 
+<img src="/assets/images/calendarprototyping/laser_iteration2/basewidth.jpg" width="300"> 
+<img src="/assets/images/calendarprototyping/laser_iteration2/basehole2.jpg" width="300"> _physical_
 
 
+_width in fusion360 is 45mm_
+
+_length in fusion360 is 140mm_
+
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/connectionlength.jpg" width="300"> _in fusion360 its 30mm_
+
+
+#### Lasercut sockets 
+
+between the sockets:
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/basesocket.jpg" width="300"> 
+<img src="/assets/images/calendarprototyping/laser_iteration2/sizebase_fusion.png" width="300"> _in fusion360_
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/socketwidth.jpg" width="300"> 
+<img src="/assets/images/calendarprototyping/laser_iteration2/socketwidth_f.png" width="300"> 
+
+
+
+### 3d printed fingers
+
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/sizeconnection_fusion.png" width="300">
+<img src="/assets/images/calendarprototyping/laser_iteration2/3dfingerbetween.jpg" width="300">
+
+
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/connectionfinger.jpg" width="300"> _in fusion it is 7mm_
+
+
+
+
+### CONCLUSION
+
+So it is clearly the lasercut base that scaled somewhere along the way. Next time I know to check within each new software at least one of the dimensions so that I know something hasn't accidentally been resized. I first thought it was Kerf but I don't believe it would've led to such a different outcome.
+
+- I went into Lightburn and scaled it up to the original dimensions.
+
+_image of front base in correct dimensions_
+
+
+_image of front base and 3d midconnection piece_
+
+They fit! The hole for the bolt is too low, I think the material is slightly thicker than 4mm. 
 
 RESEARCH ON DATA HORMONES
 
