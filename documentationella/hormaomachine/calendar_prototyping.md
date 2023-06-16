@@ -144,6 +144,7 @@ bottom connection base to base
 
 <img src="/assets/images/calendarprototyping/watchinillustrator.png" width="600"> _imported_
 
+<img src="/assets/images/calendarprototyping/linesfordata.png" width="600"> _creating the structure for data plotting_
 
 
 ##### creating graphs out of my collected data of cycles 2, 3, and 4 of the year 2023
@@ -204,11 +205,22 @@ the distance between the fingers
 
 #### checking dimensions of lasercut pieces to find where the mis sizing is coming from
 
-<img src="/assets/images/calendarprototyping/laser_iteration2/size_topbase.jpg" width="600"> _in fusion360, holes adapted_
+<img src="/assets/images/calendarprototyping/laser_iteration2/baselength.jpg" width="600"> _width in fusion360 is 45mm_
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/basewidth.jpg" width="600"> _length in fusion360 is 140mm_
+
+Dimensions of outcome in comparison to design in Fusion360:
+<img src="/assets/images/calendarprototyping/laser_iteration2/basehole2.jpg" width="600"> _physical_
+<img src="/assets/images/calendarprototyping/laser_iteration2/sizebase_fusion.png" width="600"> _in fusion_
+<img src="/assets/images/calendarprototyping/laser_iteration2/connectionlength.jpg" width="600"> _in fusion360 its 30mm_
+<img src="/assets/images/calendarprototyping/laser_iteration2/sizebase_fusion.png" width="600"> _in fusion360_
 
 
-<img src="/assets/images/calendarprototyping/laser_iteration2/size_topbase2.jpg" width="600"> __
-<img src="/assets/images/calendarprototyping/laser_iteration2/size_topbase3.jpg" width="600"> __
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/basesocket.jpg" width="600"> _physical_
+
+<img src="/assets/images/calendarprototyping/laser_iteration2/sizeconnection_fusion.png" width="600"> _in fusion360_
+<img src="/assets/images/calendarprototyping/laser_iteration2/connectionfinger.jpg" width="600"> _physical_
 
 
 
