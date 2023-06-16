@@ -10,10 +10,12 @@ layout: default
  ▀▀▀ ▀▀▀ · ▀▀▀ .▀  ▀ ▀▀▀      ▀  ▀ .▀  ▀ ▀▀▀     ▀▀ █▪ ▀█▄▀▪     ▀▀▀▀ ▀▀▀  ▀▀▀ .▀   ▀▀▀▀▀▀▀▀•     ·▀▀█.  ▀▀▀  ▀▀▀  ▀▀▀▀ ▀▀▀ ▀▀▀ ▀█▄▀▪▀▀ █▪ ▀▀▀▀ 
 ```
 
+<img src="/assets/images/frontpage.png" width="900"> 
+
 ## HORMAO MACHINE                                            
 
 
-[HORMAO MACHINE]({{ '/documentationella/hormaomachine/hormaomachine.html' | relative_url }})
+[HORMAO MACHINE]({{ '/documentationella/hormaomachine/hormaomachine.html' | relative_url }}) 
 
 
 [Motors and Light Sensor]({{ '/documentationella/hormaomachine/motorlightsensor.html' | relative_url }})
