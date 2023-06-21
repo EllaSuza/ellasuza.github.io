@@ -10,8 +10,6 @@ layout: default
  ▀▀▀ ▀▀▀ · ▀▀▀ .▀  ▀ ▀▀▀      ▀  ▀ .▀  ▀ ▀▀▀     ▀▀ █▪ ▀█▄▀▪     ▀▀▀▀ ▀▀▀  ▀▀▀ .▀   ▀▀▀▀▀▀▀▀•     ·▀▀█.  ▀▀▀  ▀▀▀  ▀▀▀▀ ▀▀▀ ▀▀▀ ▀█▄▀▪▀▀ █▪ ▀▀▀▀ 
 ```
 
-<img src="/assets/images/frontpage.png" width="900"> 
-
 ## HORMAO MACHINE                                            
 
 
@@ -29,6 +27,8 @@ layout: default
 
 [First Calendar Prototypes]({{ '/documentationella/hormaomachine/calendar_prototyping.html' | relative_url }})
 
+
+<img src="/assets/images/frontpage.png" width="900"> 
 
 
 ## FABLAB MACHINERY

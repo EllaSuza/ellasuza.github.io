@@ -4,7 +4,7 @@ layout: default
 
 [BACK TO HOME]({{ '../index.html' |relative_url }})
 
-# Our laser cutters
+# Our main laser cutter 
 
 #### MACHINE: BRM1612
 #### SOFTWARE: LIGHTBURN
