@@ -6,7 +6,9 @@ layout: default
 
 We have five 3D printers in our fablab
 #### Prusa i3MK3S
-#### Ender
+https://www.prusa3d.com/product/original-prusa-i3-mk3s-3d-printer-kit/
+#### Creality Ender 3
+https://store.creality.com/eu/products/ender-3-3d-printer-upgrade-combo-4q4l?spm=..page_2227251.products_tab_1.1
 #### Ultimaker
 #### Belt printer
 #### Resin Printer
@@ -33,33 +35,32 @@ filament support : https://all3dp.com/2/prus-slicer-support-settings-tree-suppor
 
 - Within the software, open your obj or stl file
 
-<img src="/assets/images/3d%20printing/importingslicer.png" width="300"> 
+<img src="/assets/images/3d%20printing/importingslicer.png" width="600"> 
 
-<img src="/assets/images/3d%20printing/headinslicer.png" width="300"> 
+<img src="/assets/images/3d%20printing/headinslicer.png" width="600"> 
 
 - Navigate to the PRINTING settings, and go to the EXPERT version of these settings, (can toggle between different options on the top right corner)
 
 - There are a couple of elements to check:
 
-    - the layer height : this refers to the thickness of every layer that will build up to your model. A lower height will offer more detail but will take longer.
-
-    - choice in filament : on the box of your filament, details and description will be shown.
+- the layer height : this refers to the thickness of every layer that will build up to your model. A lower height will offer more detail but will take longer.
+ - choice in filament : on the box of your filament, details and description will be shown.
 
 <img src="/assets/images/3d%20printing/filament.jpg" width="300"> 
 <img src="/assets/images/3d%20printing/filamentsettings.jpg" width="300"> 
 
 
-    - What printer you are using : our machine is Prusa i3MK3S
+ - What printer you are using : our machine is Prusa i3MK3S
 
-    - Infill : this is the material support within your model, so the amount and pattern will determin how hollow or solid your model will be printed
+- Infill : this is the material support within your model, so the amount and pattern will determin how hollow or solid your model will be printed
 
-    - Nozzle temperature
+ - Nozzle temperature
 
-    - Bed temperature
+- Bed temperature
 
 <img src="/assets/images/3d%20printing/expertslicer.png" width="300"> 
 
-<img src="/assets/images/3d%20printing/printsettingsslicer.png" width="300"> 
+<img src="/assets/images/3d%20printing/printsettingsslicer.png" width="600"> 
 
 
 - If there are overhangs, look at the design and see if it will need support material.
@@ -67,9 +68,7 @@ filament support : https://all3dp.com/2/prus-slicer-support-settings-tree-suppor
     - Then you can use the **paint-on supports** tool in the left toolbar to define where you want the support.
 
 <img src="/assets/images/3d%20printing/supportsetting.png" width="300"> 
-
 <img src="/assets/images/3d%20printing/paintonsupport.png" width="300"> 
-
 <img src="/assets/images/3d%20printing/supportonhead.png" width="300"> 
 
 #### AT THE MACHINE
@@ -113,7 +112,7 @@ The first few layers are very important, so observe closely for these. This is w
 
 We have a container to collect excess filament for future recycling in creative projects, so please clean the station up after use and place filament such as support in there.
 
-<img src="/assets/images/3d%20printing/extrafilament.jpg" width="300"> 
+<img src="/assets/images/3d%20printing/extrafilament.jpg" width="600"> 
 
 ### How to work with:
 # Creality Ender 3
