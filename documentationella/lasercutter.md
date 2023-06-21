@@ -23,6 +23,8 @@ _We have a laser cutter in Fablab. Although there are similarities, before worki
 
 1. Turn on computer
 
+<img src="/assets/images/lasercutter/lasercomputeron.jpg" height="300"> _where you can find the power button_
+
 2. Put your file onto a USB (there are some available in Fablab)
 
 3. Drag file into LightBurn software
@@ -31,17 +33,22 @@ _We have a laser cutter in Fablab. Although there are similarities, before worki
 
 5. Set the power and speed ratio based on the references in our material library.
 
+<img src="/assets/images/lasercutter/materiallibrary.jpg" height="300"> _our material library_
+
 6. Make a small square, to sample cut your defined power and speed to make sure it will result to what you want
 
 7. Open the machine and lay your material down. Based on how dense it is, it might need some weights to keep it in place. If you do so, think carefully on where you place them seeing they should never lie in the way of the laser toolpath. 
 
 8. Use the wooden tool available at the station to define the z-axis of the laserhead. Slide it under, and level the head so that it rests at that height.
 
-9. Close the machine and turn on the machine
+9. Close the machine and turn on the machine. It is labeled clearly the order of which buttons to use, but wait to turn the **laser head switch** until later
+
+<img src="/assets/images/lasercutter/laserinterface.jpg" height="300"> _the interface of the machine_
+
 
 10. Turn on the ventilation. The sound makes it clear when it is on.
 
-11. Turn on the laser
+11. Turn on the **laser head switch**. 
 
 12. Cut your sample square to test the speed and power settings you defined.
 
