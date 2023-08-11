@@ -90,3 +90,5 @@ layout: default
 
 
 [USEFUL YET MISCELLANEOUS RESOURCES]({{ '/documentationella/usefulresources.html' | relative_url }})
+
+[FABACADEMY MECHANISM DESIGN]({{ '/documentationella/fabacademymechanismdesign.html' | relative_url }})
